@@ -1,0 +1,39 @@
+.h1{
+    font-size: 2rem;
+    color: #E4FBFF;
+    text-align: center;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+.location{
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.address{
+    color:#E4FBFF;
+    font-family: 'Poppins',sans-serif;
+    background-color: #164B60;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px;
+}
+.iframe{
+    border-radius: 8px;
+    margin: 10px;
+}
+@media only screen and (max-width: 450px) {
+    .location{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .iframe{
+        width: 70vw;
+    }
+}

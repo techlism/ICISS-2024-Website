@@ -1,0 +1,15 @@
+#nav-bar{
+    font-weight: 600;
+    background-color: transparent;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+}
+@media only screen and (max-width: 450px) {
+    #nav-bar{
+        padding:20px;
+    }
+
+}

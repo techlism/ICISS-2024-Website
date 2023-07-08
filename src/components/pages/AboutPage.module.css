@@ -1,0 +1,69 @@
+.main-about{
+    font-family: 'Poppins',sans-serif;
+    width: 100vw;
+}
+.h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 100px;
+    margin-bottom: 2px;
+    margin-top: 50px;
+    color:#E4FBFF ;
+    line-height: 140%;
+}
+.para-about{
+    text-align: left;
+    margin-left: 101px;
+    margin-right: 105px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.15rem;
+    color:#E4FBFF ;
+}
+.list-div{ 
+    display: flex;
+    justify-content:space-around;
+    padding-left:95px;
+    padding-right: 95px;
+    color: #f2fafb;
+    text-align: start;
+    font-size: 1rem;
+}
+.list{
+    /*DIV WRAPPING A List*/
+    border: solid 1px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 50px;
+    padding: 6px;
+    width: 32vw;
+    border-radius: 8px; 
+}
+.h2{
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+@media only screen and (max-width: 430px) {
+ .h1{
+    font-size: 1.2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .para-about{
+    margin-left: 21px;
+    margin-right: 21px;
+    font-size: 1rem;
+ }
+ .list-div{
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 0.85rem;
+ }
+ .h2{
+    font-size: 0.95rem;
+ }
+ .list{
+    width: 42.5vw;
+ }
+}

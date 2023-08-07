@@ -1,14 +1,13 @@
+// About ICISS Page
 import styling from './AboutPage.module.css'
 import About from '../About';
+import ConferenceTopics from '../ConferenceTopics.jsx';
 const AboutPage = ()=>{
     return(
         <div className={styling['main-about']}>
-            <About style={styling}/>
-            <p className={styling['para-about']}>
-                Researchers and practitioners are encouraged to submit original, unpublished
-                contributions.</p><p className={styling['para-about']}> The topics of interest include but are not limited to:
-            </p>
-            <div className={styling['list-div']}>
+            <About/>
+            <ConferenceTopics/>
+            {/* <div className={styling['list-div']}>
                 <div className={styling['list']}>
                 <h2 className={styling.h2}>Intelligent Systems</h2>
                 <ul>
@@ -55,7 +54,7 @@ const AboutPage = ()=>{
                         <li>Trust Management</li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

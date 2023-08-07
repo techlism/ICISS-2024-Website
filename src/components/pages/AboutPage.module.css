@@ -1,6 +1,10 @@
 .main-about{
     font-family: 'Poppins',sans-serif;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .h1{
     font-size: 2.5rem;
@@ -12,15 +16,7 @@
     color:#E4FBFF ;
     line-height: 140%;
 }
-.para-about{
-    text-align: left;
-    margin-left: 101px;
-    margin-right: 105px;
-    margin-top: 10px;
-    font-weight: 500;
-    font-size: 1.15rem;
-    color:#E4FBFF ;
-}
+
 .list-div{ 
     display: flex;
     justify-content:space-around;

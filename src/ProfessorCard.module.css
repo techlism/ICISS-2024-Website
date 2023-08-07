@@ -1,0 +1,47 @@
+.professor-card{
+    background-color:#00337C ;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    color: #EDEEF7;
+    width:60vw;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 20px;
+}
+.name-img{
+    padding-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+.buttonDiv > button{
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.buttonDiv > button >a{
+    text-decoration: none;
+}
+.description{
+    font-size: 1rem;
+    margin: 5px;
+}
+.name-img > p{
+    font-size: 1.3rem;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.name-img > img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: 3px;
+}

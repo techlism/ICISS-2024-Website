@@ -3,12 +3,15 @@ import Navbar from './components/Navbar.jsx';
 import { BrowserRouter,Routes, Route } from "react-router-dom";
 import AboutPage from './components/pages/AboutPage';
 import HomePage from './components/pages/HomePage' ;
-import RegistrationPage from './components/pages/RegistrationPage';
-import GuidelinesPage from './components/pages/GuidelinesPage';
-import ContactPage from './components/pages/ContactPage';
-import CommitteePage from './components/pages/CommitteePage';
-import SpeakersPage from './components/pages/SpeakersPage';
-import Footer from './components/Footer';
+import RegistrationPage from './components/pages/RegistrationPage.jsx';
+import GuidelinesPage from './components/pages/GuidelinesPage.jsx';
+import ContactPage from './components/pages/ContactPage.jsx';
+import CommitteePage from './components/pages/CommitteePage.jsx';
+import SpeakersPage from './components/pages/SpeakersPage.jsx';
+import Footer from './components/Footer.jsx';
+import AboutCollegePage from './components/pages/AboutCollegePage.jsx';
+import SubmitPaper from './components/pages/SubmitPage.jsx';
+import ContributionTrackPage from './components/pages/ContributionTrackPage.jsx';
 function App() {
   return (
     <div className='app-main'>
@@ -25,7 +28,7 @@ function App() {
           element={<CommitteePage/>}
         />
         <Route
-          path="/registration"
+          path="/register"
           element={<RegistrationPage/>}
         />
         <Route
@@ -39,7 +42,19 @@ function App() {
         <Route
           path="/contact"
           element={<ContactPage/>}
-        />                
+        />       
+        <Route
+          path="/college"
+          element={<AboutCollegePage/>}
+        />
+        <Route
+          path="/submit"
+          element={<SubmitPaper/>}
+        /> 
+        <Route
+          path="/tracks"
+          element={<ContributionTrackPage/>}
+        />                                    
       </Routes>
       <Footer/>
     </BrowserRouter>

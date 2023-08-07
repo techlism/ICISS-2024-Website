@@ -1,0 +1,47 @@
+.table{
+    max-width: 82vw;
+}
+.table > th , td{
+    border: 1px solid #EDEEF7;
+    padding: 25px;
+    color: #EDEEF7;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+#event , #date{
+    color:#EDEEF7;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.table-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.heading{
+    display: block;
+    color: #EDEEF7;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.t-head{
+    color:#EDEEF7;
+    font-weight: 500;
+    font-size: 0.7rem;    
+}
+@media only screen and (max-width: 450px) {
+    .table > th , td{
+        padding: 8px;
+        font-size: 0.75rem;
+    }
+    .table > tr > th{
+        font-size: 0.5rem;
+    }
+    .heading{
+        font-size: 1rem;
+    }
+
+}

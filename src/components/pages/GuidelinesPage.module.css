@@ -1,0 +1,21 @@
+.guideline-div{
+    display: block;
+    justify-content: center;
+    color: #EDEEF7;
+    margin: 100px;
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+.guideline-div> ol > li{
+    margin-top: 20px;
+}
+.guideline-div> ol > li>a{
+    color: #EDEEF7;
+}
+@media only screen and (max-width: 450px) {
+    .guideline-div{
+        margin: 20px;
+    }
+
+}

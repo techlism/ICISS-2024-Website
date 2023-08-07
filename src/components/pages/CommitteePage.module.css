@@ -1,0 +1,11 @@
+.main-committeepage{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    color: #EDEEF7;
+}

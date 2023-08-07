@@ -1,15 +1,17 @@
 .footer{
     background-color: #E4FBFF; 
-    height: 17vh;
+    height: 27vh;
 }
 .footer-items{
-    padding:25px;
+    padding:45px;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
     color:#7868E6 ;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 .footertext{
     padding-bottom: 20px;

@@ -1,0 +1,95 @@
+.title-img{
+    display: block;
+    text-align: center;
+}
+.title-img > h1{
+    font-size: 3rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    color: #EDEEF7;
+    line-height: 130%;
+    padding: 20px;
+}
+.college-photo{
+    max-width: 80vw;
+    max-height: 80vw;
+    border-radius: 8px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    box-shadow: 5px 5px 1px #0808081a;
+}
+.subheading{
+    color: #EDEEF7;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.register-ref-div{
+    display: flex;
+    justify-content:center ;
+    background-color:transparent;
+    margin: 20px;
+}
+.button-wrapper {
+    background-color: #1e0149;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.aboutdiv{
+    display:flex;
+    justify-content: center;
+}
+.conf-date{
+    font-weight: 500;
+    background-color: #1e0149;
+    color: #EDEEF7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    max-width: 78vw;
+    margin-left: 10.2vw;
+    margin-right: 10.2vw;
+    padding: 10px;
+    text-align: center;
+}
+
+.sponsordiv{
+    display: flex;
+    justify-content: center;
+
+}
+.sponsordiv > img{
+    text-align: center;
+    max-width: 15vw;
+    max-height: 15vw;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+}
+.sponsor-caption {
+    color: #EDEEF7;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 450px) {
+    .title-img > h1{
+        font-size: 2rem;
+    }
+    .conf-date > h2 {
+        font-size: 1rem;
+    }
+
+}

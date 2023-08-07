@@ -1,5 +1,5 @@
-import { faUserCircle,faAt, faPhone } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faUserCircle,faAt, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styling from './ContactCard.module.css'
 const ContactCard = (props) =>{
     return(

@@ -1,0 +1,16 @@
+.topic-main-div{
+    display: flex;
+    justify-content: center;
+}
+.content-div{
+    max-width: 29vw;
+    color: #E4FBFF;
+}
+
+.para-about{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.15rem;
+    color:#E4FBFF ;
+    text-align: center;
+}

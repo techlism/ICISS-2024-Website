@@ -10,7 +10,7 @@ const Navbar = () => {
     return (    
     <nav className="navbar navbar-expand-lg" id='nav-bar'>
       <div className="container-fluid" id='nav-container'>
-        <NavLink className="navbar-brand" to="/" style={{color:'#E4FBFF'}}>Navbar</NavLink>
+        <NavLink className="navbar-brand" to="/" style={{color:'#E4FBFF'}}>ICISS</NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{filter:'invert(100%)'}}>
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -18,9 +18,6 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink className="nav-link"  to="/" style={{color:'#E4FBFF'}}>Home</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link"  to="/speakers" style={{color:'#E4FBFF'}}>Speakers</NavLink>
             </li>
             <li className="nav-item dropdown">
               <NavLink className="nav-link dropdown-toggle"  to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#E4FBFF'}}>
@@ -34,16 +31,31 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link"  to="/committee" style={{color:'#E4FBFF'}}>Committee</NavLink>
-            </li>
+            </li>                        
             <li className="nav-item">
+              <NavLink className="nav-link"  to="/speakers" style={{color:'#E4FBFF'}}>Speakers</NavLink>
+           </li>
+           <li className="nav-item dropdown">
+              <NavLink className="nav-link dropdown-toggle"  to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#E4FBFF'}}>
+                Call for Papers
+              </NavLink>
+              <ul className="dropdown-menu">
+                <li><NavLink className="dropdown-item"  to="/tracks">Contribution Tracks</NavLink></li>
+                <li><NavLink className="dropdown-item"  to="/guidelines">Author Guidelines</NavLink></li>
+                <li><NavLink className="dropdown-item"  to="/register">Registration Details</NavLink></li>
+                <li><NavLink className="dropdown-item"  to="/submit">Submit Your Paper</NavLink></li>
+
+              </ul>
+            </li>           
+            {/* <li className="nav-item">
             <NavLink className="nav-link"  to="/guidelines" style={{color:'#E4FBFF'}}>Guidelines</NavLink>
               <ul className="dropdown-menu">
                 <li><NavLink className="dropdown-item"  to="/submission">Submission Guidelines</NavLink></li>
                 <li><NavLink className="dropdown-item"  to="/presentation">Presentation Guidelines</NavLink></li>
               </ul>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <NavLink className="nav-link"  to="/registration" style={{color:'#E4FBFF'}}>Registration</NavLink>
+              <NavLink className="nav-link"  to="/register" style={{color:'#E4FBFF'}}>Registration</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link"  to="/contact" style={{color:'#E4FBFF'}}>Contact Us</NavLink>

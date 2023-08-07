@@ -1,0 +1,13 @@
+/* CSS file for About Conference Card */
+.about-conf-main{
+    background-color: #1e0149;
+    padding: 20px;
+    width:80vw;
+    border-radius: 8px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color:#EDEEF7;
+    text-align:left;
+    margin: 30px;
+}

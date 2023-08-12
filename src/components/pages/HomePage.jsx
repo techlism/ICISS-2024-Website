@@ -8,6 +8,13 @@ import About from '../About'
 import sponsorimg from '../../assets/cdac.jpeg';
 import {useLocation,NavLink} from 'react-router-dom';
 import TimeLeftCounter from '../TimeLeftCounter';
+const navlinkStyling = {
+    textDecoration:'none',
+    textAlign:'center',
+    color:'#EDEEF7',
+    fontSize:'0.94rem',
+    padding:'2px'
+}
 const HomePage = ()=>{
     useLocation();
     return(
@@ -41,7 +48,7 @@ const HomePage = ()=>{
             <Timeline/>          
             <div className={styling['register-ref-div']}>
                 <div className={styling['button-wrapper']}>
-                    <NavLink to='/contact' style={{textDecoration:'none',textAlign:'center',color:'#EDEEF7'}}>Contact us for any other queries</NavLink>
+                    <NavLink to='/contact' style={navlinkStyling}>Contact us for any other queries</NavLink>
                 </div>
             </div>            
         </div>

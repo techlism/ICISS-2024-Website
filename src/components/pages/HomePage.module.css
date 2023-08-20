@@ -10,11 +10,12 @@
     line-height: 130%;
     padding: 20px;
 }
-.college-photo{
+.victoria{
     max-width: 80vw;
     max-height: 80vw;
     border-radius: 8px;
     margin-top: 30px;
+   
     /* margin-bottom: 30px; */
     box-shadow: 5px 5px 1px #0808081a;
 }

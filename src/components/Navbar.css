@@ -1,11 +1,18 @@
 #nav-bar{
+    backdrop-filter: blur(3px) saturate(168%);
+    -webkit-backdrop-filter: blur(3px) saturate(168%);
+    background-color: rgba(17, 25, 40, 0.47);
+    border-radius: 8px;
     font-weight: 600;
-    background-color: transparent;
     padding-left: 90px;
     padding-right: 90px;
     padding-top: 20px;
     padding-bottom: 20px;
     position: sticky;
+    width: 90vw;
+    margin-top: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 @media only screen and (max-width: 450px) {
     #nav-bar{

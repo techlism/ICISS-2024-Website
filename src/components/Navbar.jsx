@@ -42,9 +42,8 @@ const Navbar = () => {
               <ul className="dropdown-menu">
                 <li><NavLink className="dropdown-item"  to="/tracks">Contribution Tracks</NavLink></li>
                 <li><NavLink className="dropdown-item"  to="/guidelines">Author Guidelines</NavLink></li>
-                <li><NavLink className="dropdown-item"  to="/register">Registration Details</NavLink></li>
+                {/* <li><NavLink className="dropdown-item"  to="/register">Registration Details</NavLink></li> */}
                 <li><NavLink className="dropdown-item"  to="/submit">Submit Your Paper</NavLink></li>
-
               </ul>
             </li>           
             {/* <li className="nav-item">

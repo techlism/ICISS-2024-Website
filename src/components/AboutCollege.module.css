@@ -5,12 +5,22 @@
     text-align:left;
     color: #EDEEF7;
     font-weight: 500;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: #1e0149;
     padding: 20px;
     border-radius: 8px;
     width: 80vw;
+    display: flex;
 }
-.about-college > button{
+.clock-tower{
+    max-width: 25vw;
+    max-height: 25vw;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+.about-college > div > button{
     border-radius: 8px;
     background-color: #EDEEF7;
     border: none;
@@ -19,19 +29,33 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.about-college > button > a {
+.about-college > div > button > a {
     text-decoration: none;
     font-weight: 500;
 }
-
+.about-college > div {
+    margin: 50px;
+    padding: 10px;
+}
 @media only screen and (max-width: 450px) {
-    .about-college > p{
+    .about-college > div > p{
         font-size: 0.95rem;
   
     }
     .about-college{
         display: block;
         margin: 20px;
+    }
+    .about-college > div {
+        margin: 5px;
+        padding: 3px;
+    }
+    .clock-tower{
+        max-width:70vw;
+        max-height: 70vw;
+        border-radius: 8px;
+        text-align: center;
+        margin: 10px;
     }
 
 }

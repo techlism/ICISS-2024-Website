@@ -1,5 +1,5 @@
 import styling from './HomePage.module.css';
-import imgsrc from '../../assets/iiest-main.jpg'
+import imgsrc from '../../assets/bg.png'
 import AboutCollege from '../AboutCollege';
 import Timeline from '../Timeline';
 // import Pricing from '../Pricing';
@@ -20,9 +20,9 @@ const HomePage = ()=>{
     return(
         <div className={styling['main-home']}>
             <div className={styling['title-img']}>
-            <img src={imgsrc} className={styling['college-photo']} alt='IIEST, Shibpur'></img>
+            <img src={imgsrc} className={styling['victoria']} alt='Victoria Memorial'></img>
                 <h1>
-                    1<sup>st</sup> International Conference
+                    International Conference
                     on <br/> Intelligent Systems and Security <br/> (ICISS 2024)
                 </h1>                
             </div>

@@ -9,7 +9,7 @@ const ConferenceTopics = () => {
     </p>  
     <div className={styling['topic-main-div']}>        
       <div className={styling['content-div']}>         
-          <div style={{margin:'30px',maxWidth:'50.5vw'}}>      
+          <div style={{margin:'30px',maxWidth:'60.5vw'}}>      
             <h2>Intelligent systems and applications:</h2>
             <table className={styling.table}>
               <tbody>
@@ -34,7 +34,7 @@ const ConferenceTopics = () => {
               </tbody>
             </table>
           </div>
-          <div style={{margin:'30px',maxWidth:'50.5vw'}}>
+          <div style={{margin:'30px',maxWidth:'60.5vw'}}>
             <h2>Security and privacy:</h2>
             <table className={styling.table}>
               <tbody>
@@ -62,7 +62,7 @@ const ConferenceTopics = () => {
               </tbody>
             </table>
           </div>
-          <div style={{margin:'30px',maxWidth:'50.5vw'}}>
+          <div style={{margin:'30px',maxWidth:'60.5vw'}}>
             <h2>Intelligent security systems</h2>
             <table className={styling.table}>
               <tbody>
@@ -87,7 +87,7 @@ const ConferenceTopics = () => {
               </tbody>
             </table>
           </div>
-          <div style={{margin:'30px',maxWidth:'50.5vw'}}>
+          <div style={{margin:'30px',maxWidth:'60.5vw'}}>
             <h2>Ethical and legal implications of intelligent systems and security:</h2>
             <table className={styling.table}>
               <tbody>

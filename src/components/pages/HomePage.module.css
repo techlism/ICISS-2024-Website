@@ -37,11 +37,11 @@
 .button-wrapper {
     background-color: #1e0149;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 10px;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .aboutdiv{
@@ -91,6 +91,10 @@
     }
     .conf-date > h2 {
         font-size: 1rem;
+    }
+    .victoria{
+        max-width: 90vw;
+        max-height: 90vw;
     }
 
 }

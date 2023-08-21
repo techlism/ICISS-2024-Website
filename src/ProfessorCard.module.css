@@ -6,7 +6,7 @@
     font-family: 'Poppins',sans-serif;
     text-align: center;
     color: #EDEEF7;
-    width:40vw;
+    width:45vw;
     border-radius: 8px;
     padding: 1rem;
     margin: 20px;
@@ -16,4 +16,10 @@
 }
 .description{
     font-size: 1rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .professor-card{
+        width: 80vw;
+    }
 }

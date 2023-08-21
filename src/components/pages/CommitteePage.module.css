@@ -1,6 +1,10 @@
 .main-committeepage{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.professors{
+    margin: 60px;
 }
 .h2{
     font-family: 'Poppins',sans-serif;
@@ -9,4 +13,11 @@
     text-align: center;
     color: #EDEEF7;
     margin: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    .h2{
+        font-size: 1.5rem;
+    }
+
 }

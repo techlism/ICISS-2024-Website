@@ -6,7 +6,7 @@ const SpeakersPage = ()=>{
         <div className={styling['main-speakerpage']}>
             <div className={styling.professors}>
                 <h1 className={styling.heading}>Our Speakers</h1>
-                <p>To be announced..</p>                       
+                <p className={styling['para']}>To be announced..</p>                       
             </div>
         </div>
     )

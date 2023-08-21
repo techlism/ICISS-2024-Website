@@ -2,7 +2,9 @@ import ConferenceTopics from "../ConferenceTopics.jsx"
 
 const ContributionTrackPage = ()=>{
     return(
-        <ConferenceTopics/>
+        <div style={{margin:'70px'}}>
+            <ConferenceTopics/>
+        </div>
     )
 }
 export default ContributionTrackPage;

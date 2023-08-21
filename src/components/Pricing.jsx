@@ -30,14 +30,21 @@ const Pricing = ()=>{
             <td>$400</td>
             </tr>
             <tr>
-            <td>Attending only/ Accompanying Person</td>
+            <td>Attending only</td>
             <td>₹3540</td>
             <td>₹4130</td>
             <td>$75</td>
             <td>$100</td>
             </tr>
+            <tr>
+            <td>Accompanying Person</td>
+            <td>₹3000</td>
+            <td>₹3000</td>
+            <td>$50</td>
+            <td>$50</td>
+            </tr>            
             </tbody>
-        </table>            
+        </table>
     </div>        
     )
 }

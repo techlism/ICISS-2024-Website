@@ -1,23 +1,20 @@
-.title-img{
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@700&display=swap');.title-img{
     display: block;
     text-align: center;
 }
 .title-img > h1{
-    font-size: 3rem;
-    font-family: 'Poppins',sans-serif;
-    font-weight: 700;
+    /* HEADING */
+    font-size: 3.4rem;
+    font-family: 'REM', sans-serif;
     color: #EDEEF7;
     line-height: 130%;
     padding: 20px;
 }
 .victoria{
-    max-width: 80vw;
-    max-height: 80vw;
+    max-width: 85vw;
+    max-height: 85vw;
     border-radius: 8px;
     margin-top: 30px;
-   
-    /* margin-bottom: 30px; */
-    box-shadow: 5px 5px 1px #0808081a;
 }
 .subheading{
     color: #EDEEF7;

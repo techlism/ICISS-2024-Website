@@ -22,8 +22,8 @@ const HomePage = ()=>{
             <div className={styling['title-img']}>
             <img src={imgsrc} className={styling['victoria']} alt='Victoria Memorial'></img>
                 <h1>
-                    International Conference
-                    on <br/> Intelligent Systems and Security <br/> (ICISS 2024)
+                    INTERNATIONAL CONFERENCE
+                    ON <br/> INTELLIGENT SYSTEMS AND SECURITY <br/> (ICISS 2024)
                 </h1>                
             </div>
             <div className={styling['conf-date']}>

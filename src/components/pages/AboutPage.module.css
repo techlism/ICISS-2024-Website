@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 70px;
 }
 .h1{
     font-size: 2.5rem;

@@ -8,9 +8,9 @@ const ContactPage = ()=>{
             <div className={styling['contact-container']}>
                 <div>
                 <h1 className={styling.h1}>Contact Information</h1>
-                <ContactCard name='Prof. Abc Xyz' email='abc@faculty.it.iiests.ac.in' phone='+91 12345-23456'/>
-                <ContactCard name='Prof. Abc Xyz' email='abc@faculty.it.iiests.ac.in' phone='+91 12345-23456'/>
-                <ContactCard name='Prof. Abc Xyz' email='abc@faculty.it.iiests.ac.in' phone='+91 12345-23456'/>
+                <ContactCard name='Shyamlendu Kandar' email='shyamalenduk@it.iiests.ac.in' phone='+91 70031 98150'/>
+                <ContactCard name='Ruchira Naskar' email='ruchira@it.iiests.ac.in' phone=''/>
+                <ContactCard name='Chandan Giri' email='chandan@it.iiests.ac.in' phone=''/>
                 </div>
             </div>
             <div className={styling.location}>

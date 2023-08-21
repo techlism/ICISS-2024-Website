@@ -6,10 +6,10 @@ body{
 }
 .app-main{
   background-color: #0078ed;
-  background-image: -webkit-linear-gradient(39deg, #0078ed 0%, #7868e6 100%);
-  background-image: -moz-linear-gradient(39deg, #0078ed 0%, #7868e6 100%);
-  background-image: -o-linear-gradient(39deg, #0078ed 0%, #7868e6 100%);
-  background-image: linear-gradient(39deg, #0078ed 0%, #7868e6 100%);
+  background-image: -webkit-linear-gradient(150deg, #0078ed 0%, #7868e6 100%);
+  background-image: -moz-linear-gradient(150deg, #0078ed 0%, #7868e6 100%);
+  background-image: -o-linear-gradient(150deg, #0078ed 0%, #7868e6 100%);
+  background-image: linear-gradient(150deg, #0078ed 0%, #7868e6 100%);
   overflow-x: hidden;
 }
 ::selection{

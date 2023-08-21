@@ -20,7 +20,13 @@ const GuidelinesPage = ()=>{
                     All submitted papers that adhere to the submission guidelines will undergo evaluation. The evaluation criteria include originality, technical and/or research content/depth, correctness, relevance to the conference, contributions, and readability.
                 </li>
                 <li>
+                Authors are expected to ensure that the similarity index of their submitted paper remains below the threshold of 15%.
+                </li>
+                <li>
                     The authors of accepted papers will have an opportunity to make corrections based on the suggestions of the reviewers. They must submit the final camera-ready versions of their papers within the specified deadline.
+                </li>
+                <li>
+                    Kindly note that the permissible page length for manuscript submissions is limited to 12 pages. In the event of exceeding this limit, an additional charge of INR 500 per page or $10 per page will apply. The maximum page count with the surcharge is set at 15 pages
                 </li>
                 <li>
                     To know more about the specified format for publishing papers through Springer, please visit <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>. You can find all the necessary downloads and guidelines on that page.                    

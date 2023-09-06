@@ -1,5 +1,5 @@
 import React from 'react';
-
+import icisslogo from './../assets/icisslogo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'jquery/dist/jquery.min.js';
@@ -10,7 +10,9 @@ const Navbar = () => {
     return (    
     <nav className="navbar navbar-expand-lg" id='nav-bar'>
       <div className="container-fluid" id='nav-container'>
-        <NavLink className="navbar-brand" to="/" style={{color:'#E4FBFF'}}>ICISS</NavLink>
+        <NavLink className="navbar-brand" to="/" style={{color:'#E4FBFF'}}>
+          <img src={icisslogo} alt="iciss-logo" id='iciss-logo'/>
+        </NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{filter:'invert(100%)'}}>
           <span className="navbar-toggler-icon"></span>
         </button>

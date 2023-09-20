@@ -2,24 +2,19 @@
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: #1e0149;
-    border-radius: 12px;
     font-family: 'Poppins',sans-serif;
     text-align: center;
     color: #EDEEF7;
-    width:45vw;
+    /* width:45vw; */
     border-radius: 8px;
-    padding: 1rem;
+    padding: 1.2rem;
     margin: 20px;
 }
 .name{
     font-size: 1.55rem;
+    font-weight: 500;
 }
 .description{
-    font-size: 1rem;
-}
-
-@media only screen and (max-width: 450px) {
-    .professor-card{
-        width: 80vw;
-    }
+    font-weight: 400;
+    font-size: 0.8rem;
 }

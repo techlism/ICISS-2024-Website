@@ -36,6 +36,9 @@ const CommitteePage = ()=>{
                 <h2 className={styling.h2} >Advisory Chairs:</h2>
                 <ProfessorCard name='Bhabani P Sinha' description='ISI Kolkata'/>
                 <ProfessorCard name='N. K. Goyal' description="CMAI Association of India"/>
+                <ProfessorCard name="Valentin Brimkov" description="Buffalo State University, USA"/>
+                <ProfessorCard name="Reneta Barneva" description="State University of New York at Fredonia, USA"/>
+
 
                 <h2 className={styling.h2} >Organizing Committee:</h2>
                 <ProfessorCard name="Prasun Ghoshal" description="Indian Institute of Engineering Science and Technology, Shibpur"/>
@@ -47,7 +50,9 @@ const CommitteePage = ()=>{
                 <ProfessorCard name="Surajit Ghosh" description="Indian Institute of Engineering Science and Technology, Shibpur"/>
                 <ProfessorCard name="Malay Kule" description="Indian Institute of Engineering Science and Technology, Shibpur"/>
                 <ProfessorCard name="Samit Biswas" description="Indian Institute of Engineering Science and Technology, Shibpur"/>
-
+                <h2 className={styling.h2} >Website Committee</h2>
+                <ProfessorCard name="Indrajit Banerjee" description="Indian Institute of Engineering Science and Technology, Shibpur"/>
+                <ProfessorCard name = "Kundan Kumar" description="Indian Institute of Engineering Science and Technology, Shibpur"/>
                 <h2 className={styling.h2} >Technical Program Committee:</h2>
                 <ProfessorCard name="I. Sengupta" description="IIT, Kgp"/>
                 <ProfessorCard name="B. Mitra" description="IIT, KGP"/>
@@ -60,7 +65,23 @@ const CommitteePage = ()=>{
                 <ProfessorCard name="D. Kandar." description="NEHU, Shilong"/>
                 <ProfessorCard name="S. Kar" description="NIT, Durgapur"/>
                 <ProfessorCard name="D. Nandi" description="NIT, Durgapur"/>
-                <ProfessorCard name="I. Mukherjee" description="IIIT, Kalyani"/>                       
+                <ProfessorCard name="I. Mukherjee" description="IIIT, Kalyani"/>
+                {/* ADDED ON 20th Sept */}
+                <ProfessorCard name="Vijayan K. Asari" description="University of Dayton, USA"/>
+                <ProfessorCard name="Petra Wiederhold" description="Av. Instituto Politécnico Nacional, Mexico"/>
+                <ProfessorCard name="Ansuman Kumar" description="NEHU"/>
+                <ProfessorCard name="Dharavath Ramesh" description="IIT, Dhanbad"/>
+                <ProfessorCard name="Badal Soni" description="NIT Shilchar"/>
+                <ProfessorCard name="Arup Kumar Pal" description="IIT, Dhanbad"/>
+                <ProfessorCard name="Tandra Pal" description="NIT, Durgapur"/>
+                <ProfessorCard name="Rajib Ghosh" description="National Institute of Technology Patna, India"/>
+                <ProfessorCard name="Bibhas Ch. Dhara" description="Jadavpur University, India"/>
+                <ProfessorCard name="Debashis De" description="MAKAUT, India"/>
+                <ProfessorCard name="Biswapati Jana" description="Vidyasagar University, India"/>
+                <ProfessorCard name="Maheshwari Prasad Singh" description="NIT, Patna"/>
+                <ProfessorCard name="Amitabha Nath" description="NEHU"/>
+                <ProfessorCard name="Bubu Bhuyan" description="NEHU"/>
+                <ProfessorCard name="Dr. Anupam Biswas" description="NIT, Shilchar"/>
             </div>
         </div>
     )

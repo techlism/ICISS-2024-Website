@@ -29,10 +29,10 @@ const GuidelinesPage = ()=>{
                     Kindly note that the permissible page length for manuscript submissions is limited to 12 pages. In the event of exceeding this limit, an additional charge of INR 500 per page or $10 per page will apply. The maximum page count with the surcharge is set at 15 pages
                 </li>
                 <li>
-                    To know more about the specified format for publishing papers through Springer, please visit <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">here</a>. You can find all the necessary downloads and guidelines on that page.                    
+                    Follow the authors instructions in the Information for Authors of Springer Proceedings. Relevant word and Latex templates can be found from <a href="https://www.springer.com/gp/authors-editors/conference-proceedings/conference-proceedings-guidelines" target='blank'>here</a>.                    
                 </li>
                 <li>
-                To explore the topics of interest in detail, please visit the About ICISS Page, which can be accessed from the About Section in the Navigation Bar.
+                    To explore the topics of interest in detail, please visit the <a href="/about">About ICISS Page</a>.
                 </li>
             </ol>
         </div>

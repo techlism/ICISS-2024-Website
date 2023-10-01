@@ -44,7 +44,6 @@ const VenuePage = () => {
             <ul>
                 <li>
                     <h3>
-                    NEHU, India
                         Netaji Subhash Chandra Bose International Airport
                     </h3>
                     <p>22 km</p>

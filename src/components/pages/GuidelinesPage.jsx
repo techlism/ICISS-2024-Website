@@ -14,7 +14,7 @@ const GuidelinesPage = ()=>{
                      The recommended font size is 11 points, and reasonable margins should be used.
                 </li>
                 <li>
-                    Authors are encouraged to follow the given guidelines when preparing their submissions. The papers must be in PDF format and should be submitted electronically through the EasyChair platform.
+                    Authors are encouraged to follow the given guidelines when preparing their submissions. The papers must be in PDF format and should be submitted electronically through the CMT platform.
                 </li>
                 <li>
                     All submitted papers that adhere to the submission guidelines will undergo evaluation. The evaluation criteria include originality, technical and/or research content/depth, correctness, relevance to the conference, contributions, and readability.

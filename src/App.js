@@ -12,6 +12,8 @@ import Footer from './components/Footer.jsx';
 import AboutCollegePage from './components/pages/AboutCollegePage.jsx';
 import SubmitPaper from './components/pages/SubmitPage.jsx';
 import ContributionTrackPage from './components/pages/ContributionTrackPage.jsx';
+import VisaPage from './components/pages/VisaPage';
+import VenuePage from './components/pages/VenuePage';
 function App() {
   return (
     <div className='app-main'>
@@ -54,7 +56,15 @@ function App() {
         <Route
           path="/tracks"
           element={<ContributionTrackPage/>}
-        />                                    
+        />             
+        <Route
+          path="/visa"
+          element={<VisaPage/>}
+        />       
+        <Route
+          path="/venue"
+          element={<VenuePage/>}
+        />                                 
       </Routes>
       <Footer/>
     </BrowserRouter>

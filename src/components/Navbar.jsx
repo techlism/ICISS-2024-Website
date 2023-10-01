@@ -1,5 +1,5 @@
 import React from 'react';
-import icisslogo from './../assets/icisslogo.png';
+import icisslogo from './../assets/icisslogo2.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'jquery/dist/jquery.min.js';
@@ -10,7 +10,7 @@ const Navbar = () => {
     return (    
     <nav className="navbar navbar-expand-lg" id='nav-bar'>
       <div className="container-fluid" id='nav-container'>
-        <NavLink className="navbar-brand" to="/" style={{color:'#E4FBFF'}}>
+        <NavLink className="navbar-brand" to="/" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>
           <img src={icisslogo} alt="iciss-logo" id='iciss-logo'/>
         </NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{filter:'invert(100%)'}}>
@@ -19,10 +19,10 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link"  to="/" style={{color:'#E4FBFF'}}>Home</NavLink>
+              <NavLink className="nav-link"  to="/" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>Home</NavLink>
             </li>
             <li className="nav-item dropdown">
-              <NavLink className="nav-link dropdown-toggle"  to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#E4FBFF'}}>
+              <NavLink className="nav-link dropdown-toggle"  to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>
                 About
               </NavLink>
               <ul className="dropdown-menu">
@@ -32,13 +32,13 @@ const Navbar = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link"  to="/committee" style={{color:'#E4FBFF'}}>Committee</NavLink>
+              <NavLink className="nav-link"  to="/committee" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>Committee</NavLink>
             </li>                        
             <li className="nav-item">
-              <NavLink className="nav-link"  to="/speakers" style={{color:'#E4FBFF'}}>Speakers</NavLink>
+              <NavLink className="nav-link"  to="/speakers" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>Speakers</NavLink>
            </li>
            <li className="nav-item dropdown">
-              <NavLink className="nav-link dropdown-toggle"  to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#E4FBFF'}}>
+              <NavLink className="nav-link dropdown-toggle"  to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>
                 Call for Papers
               </NavLink>
               <ul className="dropdown-menu">
@@ -48,18 +48,22 @@ const Navbar = () => {
                 <li><NavLink className="dropdown-item"  to="/submit">Submit Your Paper</NavLink></li>
               </ul>
             </li>           
-            {/* <li className="nav-item">
-            <NavLink className="nav-link"  to="/guidelines" style={{color:'#E4FBFF'}}>Guidelines</NavLink>
-              <ul className="dropdown-menu">
-                <li><NavLink className="dropdown-item"  to="/submission">Submission Guidelines</NavLink></li>
-                <li><NavLink className="dropdown-item"  to="/presentation">Presentation Guidelines</NavLink></li>
-              </ul>
-            </li> */}
             <li className="nav-item">
-              <NavLink className="nav-link"  to="/register" style={{color:'#E4FBFF'}}>Registration</NavLink>
+              <NavLink className="nav-link"  to="/register" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>Registration</NavLink>
             </li>
+            <li className="nav-item dropdown">
+              <NavLink className="nav-link dropdown-toggle"  to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>
+                Venue
+              </NavLink>
+              <ul className="dropdown-menu">
+                <li><NavLink className="dropdown-item"  to="/visa">Visa Information</NavLink></li>
+                <li><NavLink className="dropdown-item"  to="/venue">Venue</NavLink></li>
+                {/* <li><NavLink className="dropdown-item"  to="/register">Registration Details</NavLink></li> */}
+                {/* <li><NavLink className="dropdown-item"  to="/submit">Submit Your Paper</NavLink></li> */}
+              </ul>
+            </li>            
             <li className="nav-item">
-              <NavLink className="nav-link"  to="/contact" style={{color:'#E4FBFF'}}>Contact Us</NavLink>
+              <NavLink className="nav-link"  to="/contact" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>Contact Us</NavLink>
             </li>
           </ul>
         </div>

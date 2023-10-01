@@ -8,6 +8,7 @@ import About from '../About'
 import sponsorimg from '../../assets/cdac.jpeg';
 import {useLocation,NavLink} from 'react-router-dom';
 import TimeLeftCounter from '../TimeLeftCounter';
+import AddressMap from '../AddressMap';
 const navlinkStyling = {
     textDecoration:'none',
     textAlign:'center',
@@ -31,6 +32,9 @@ const HomePage = ()=>{
                 <h2>20<sup>th</sup> to 22<sup>nd</sup> December 2024</h2>
                 <TimeLeftCounter/>            
             </div>
+            <div className={styling['conf-date']}>
+                <AddressMap/>
+            </div>            
             <h2 className={styling.subheading}>In Association with</h2>
             <div className={styling['sponsordiv']}>
                 <img src={sponsorimg} alt="cdac" />                

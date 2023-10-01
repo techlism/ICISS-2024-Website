@@ -5,6 +5,7 @@
 }
 .professors{
     margin: 60px;
+    max-width: 85vw;
 }
 .h2{
     font-family: 'Poppins',sans-serif;
@@ -14,7 +15,18 @@
     color: #EDEEF7;
     margin: 10px;
 }
+.professorsGrid {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; */
+}
+.tcp-table{
+    display: flex;
+    justify-content: center;
 
+}
 @media only screen and (max-width: 450px) {
     .h2{
         font-size: 1.5rem;

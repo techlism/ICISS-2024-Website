@@ -1,10 +1,22 @@
 import styling from './AboutCollege.module.css';
-import clocktower from './../assets/clock-tower.jpeg';
+import clgimg1 from './../assets/clg1.png';
+import clgimg2 from './../assets/clg2.png';
+import clgimg3 from './../assets/clg3.png';
+import clgimg4 from './../assets/clg4.png';
+import clgimg5 from './../assets/clg5.png';
+import clgimg6 from './../assets/clg6.png';
+import ImageCarousel from './ImageCarousel';
+const imagesArr = [clgimg1,clgimg2,clgimg3,clgimg4,clgimg5,clgimg6];
+
 const AboutCollege = ()=>{
     return(
         <div style={{display:'flex',justifyContent:'center'}}>
             <div className={styling['about-college']}>
-                <img src={clocktower} alt="iiest-clock-tower" className={styling['clock-tower']}/>
+                <div className={styling['image-carousel']}>
+                    <ImageCarousel images={imagesArr}/>
+                </div>
+                {/* <img src={clocktower} alt="iiest-clock-tower" className={styling['clock-tower']}/> */}
+                
                 <div>
                 <h1>About IIEST</h1>
                 <hr />

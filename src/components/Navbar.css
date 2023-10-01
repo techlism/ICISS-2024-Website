@@ -15,9 +15,9 @@
     margin-right: 5vw;
 }
 #iciss-logo{
-    max-width: 55px;
-    max-height: 55px;
-    border-radius: 10px;
+    max-width: 65px;
+    max-height: 65px;
+    border-radius: 5px;
 }
 @media only screen and (max-width: 450px) {
     #nav-bar{

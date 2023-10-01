@@ -1,0 +1,22 @@
+.carousel-inner{
+    border-radius: 8px;
+    max-height: 60vw;
+    max-width: 60vw;
+    margin: 0;
+    padding: 0;
+}
+.carousel-control-prev:hover{
+    background-color: rgba(169, 169, 169, 0.612);
+    border-radius: 8px;
+}
+.carousel-control-next:hover{
+    background-color: rgba(169, 169, 169, 0.612);
+    border-radius: 8px;
+}
+@media only screen and (max-width: 450px) {
+    .carousel-inner{
+        border-radius: 8px;
+        max-height: 70vw;
+        max-width: 70vw;        
+    }
+}

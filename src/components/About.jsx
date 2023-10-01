@@ -1,4 +1,5 @@
 // AboutCard for About Conference - DIV
+import springerLogo from '../assets/springer.png';
 import styling from './About.module.css';
 const About = ()=>{
  return(
@@ -24,6 +25,9 @@ const About = ()=>{
             <p>
             ICISS welcomes contributions in the form of research papers, case studies, and industry presentations, covering a wide range of topics related to intelligent systems and security.
             The conference encourages multidisciplinary approaches and invites submissions that explore the union and intersection of intelligent systems and security.  
+            </p>
+            <p>
+                Note : All the accepted papers will be published through a <img src={springerLogo} alt="springer" style={{backgroundColor:'#edeef7',backgroundClip:'content-box',borderRadius:'8px'}}/> series (Waiting for approval).
             </p>
     </div>
  )    

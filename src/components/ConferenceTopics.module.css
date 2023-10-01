@@ -1,7 +1,3 @@
-/* .topic-main-div{
-    display: flex;
-    justify-content: center;
-} */
 .content-div{
     display: flex;
     flex-direction: column;
@@ -12,14 +8,28 @@
     color: #E4FBFF;
 }
 .table{
-    width:55vw;
-    text-align: center;
+    width:40vw;
+    text-align: left;
 }
-
+.h2-div{
+    width: 39vw;
+    margin-left: 5px;
+}
 .para-about{
     margin-top: 10px;
     font-weight: 500;
     font-size: 1.15rem;
     color:#E4FBFF ;
     text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .table{
+        width:59vw;
+    }
+    .h2-div{
+        width: 58vw;
+        text-align: center;
+        margin-left: 0;
+    }
 }

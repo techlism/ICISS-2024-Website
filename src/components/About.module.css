@@ -1,7 +1,7 @@
 /* CSS file for About Conference Card */
 .about-conf-main{
     background-color: #1e0149;
-    padding: 20px;
+    padding: 83px;
     width:80vw;
     border-radius: 8px;
     display:flex;
@@ -10,4 +10,10 @@
     color:#EDEEF7;
     text-align:left;
     margin: 30px;
+}
+@media only screen and (max-width: 450px) {
+    .about-conf-main{
+        margin: 5px;
+        padding: 23px;
+    }
 }

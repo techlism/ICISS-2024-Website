@@ -76,7 +76,7 @@ const CommitteePage = ()=>{
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        {/* <tr>
                             <td>B. Mitra</td>
                             <td>IIT, KGP, India</td>
                         </tr>
@@ -115,7 +115,7 @@ const CommitteePage = ()=>{
                         <tr>
                             <td>D. Nandi</td>
                             <td>NIT, Durgapur, India</td>
-                        </tr>
+                        </tr> */}
                         <tr>
                             <td>Vijayan K. Asari</td>
                             <td>University of Dayton, USA</td>
@@ -351,7 +351,23 @@ const CommitteePage = ()=>{
                         <tr>
                             <td>Mahesh Shirole</td>
                             <td>Veermata Jijabai Technological Institute, Pune, India</td>
-                        </tr>                                              
+                        </tr>
+                        <tr>
+                            <td>Sunita Dhavale</td>
+                            <td>Defence Institute of Advanced Technology, Pune, India</td>
+                        </tr>
+                        <tr>
+                            <td>Upasana Singh</td>
+                            <td>Defence Institute of Advanced Technology, Pune, India</td>
+                        </tr>
+                        <tr>
+                            <td>Shital Raut</td>
+                            <td>Visvesvaraya National Institute of Technology, Nagpur, India</td>
+                        </tr>
+                        <tr>
+                            <td>Anil Kumar Singh</td>
+                            <td>Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India</td>
+                        </tr>                                                                      
                     </tbody>
                 </table>
                 </div>

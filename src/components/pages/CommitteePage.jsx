@@ -77,10 +77,6 @@ const CommitteePage = ()=>{
                     </thead>
                     <tbody>
                         <tr>
-                            <td>I. Sengupta</td>
-                            <td>IIT, Kgp, India</td>
-                        </tr>
-                        <tr>
                             <td>B. Mitra</td>
                             <td>IIT, KGP, India</td>
                         </tr>
@@ -119,10 +115,6 @@ const CommitteePage = ()=>{
                         <tr>
                             <td>D. Nandi</td>
                             <td>NIT, Durgapur, India</td>
-                        </tr>
-                        <tr>
-                            <td>I. Mukherjee</td>
-                            <td>IIIT, Kalyani, India</td>
                         </tr>
                         <tr>
                             <td>Vijayan K. Asari</td>
@@ -300,7 +292,66 @@ const CommitteePage = ()=>{
                             <td>K.Himabindu</td>
                             <td>NIT, Andhra Pradesh, India</td>
                         </tr>                                             
-                                              
+                        <tr>
+                            <td>Rajendra Prasath</td>
+                            <td>IIIT, Chittoor, India</td>
+                        </tr>
+                        <tr>
+                            <td>Asish Bera</td>
+                            <td>Birla Institute of Technology and Science, Pilani, India</td>
+                        </tr>
+                        <tr>
+                            <td>Annappa B</td>
+                            <td>NIT Karnataka, Surathkal, India</td>
+                        </tr>
+                        <tr>
+                            <td>Keerthana Prasad</td>
+                            <td>Manipal Academy of Higher Education, India</td>
+                        </tr>
+                        <tr>
+                            <td>Biswajit R Bhowmik</td>
+                            <td>NIT Karnataka, Surathkal, India</td>
+                        </tr>
+                        <tr>
+                            <td>Pavan Kumar C</td>
+                            <td>IIIT, Dharwad, India</td>
+                        </tr>
+                        <tr>
+                            <td>Kamlesh Tiwari</td>
+                            <td>BITS Pilani, India</td>
+                        </tr>
+                        <tr>
+                            <td>P. Santhi Thilagam</td>
+                            <td>NIT Karnataka, Surathkal, India</td>
+                        </tr>
+                        <tr>
+                            <td>Basabdatta Bhattacharya</td>
+                            <td>Birla Institute of Technology and Science, Pilani, India</td>
+                        </tr>
+                        <tr>
+                            <td>Yadunath Pathak</td>
+                            <td>VNIT, Nagpur, India</td>
+                        </tr>
+                        <tr>
+                            <td>Vinod Pachghare</td>
+                            <td>COEP Technological University, Pune, India</td>
+                        </tr>
+                        <tr>
+                            <td>Bhupendra Singh</td>
+                            <td>IIIT, Pune, India</td>
+                        </tr>
+                        <tr>
+                            <td>Mahendra Pratap Yadav</td>
+                            <td>IIIT, Pune, India</td>
+                        </tr>
+                        <tr>
+                            <td>Sonam Maurya</td>
+                            <td>IIIT, Pune, India</td>
+                        </tr>
+                        <tr>
+                            <td>Mahesh Shirole</td>
+                            <td>Veermata Jijabai Technological Institute, Pune, India</td>
+                        </tr>                                              
                     </tbody>
                 </table>
                 </div>

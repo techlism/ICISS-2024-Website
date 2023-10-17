@@ -367,7 +367,191 @@ const CommitteePage = ()=>{
                         <tr>
                             <td>Anil Kumar Singh</td>
                             <td>Motilal Nehru National Institute of Technology Allahabad, Prayagraj, India</td>
-                        </tr>                                                                      
+                        </tr> 
+                        <tr>
+                            <td>Salvatore Distefano</td>
+                            <td>University of Messina, Italy</td>
+                        </tr>
+                        <tr>
+                            <td>Devesh C Jinwala</td>
+                            <td>S V National Institute of Technology, Surat</td>
+                        </tr>
+                        <tr>
+                            <td>Pilli Emmanuel Shubhakar</td>
+                            <td>Malaviya National Institute of Technology Jaipur</td>
+                        </tr>
+                        <tr>
+                            <td>Ramesh Babu Battula</td>
+                            <td>Malaviya National Institute of Technology Jaipur</td>
+                        </tr>
+                        <tr>
+                            <td>Yogesh Kumar</td>
+                            <td>Pandit Deendayal Energy University, Gandhinagar</td>
+                        </tr>
+                        <tr>
+                            <td>UDAI PRATAP RAO</td>
+                            <td>National Institute of Technology Patna</td>
+                        </tr>
+                        <tr>
+                            <td>Pramit Mazumdar</td>
+                            <td>Indian Institute of Information Technology, Vadodara</td>
+                        </tr>
+                        <tr>
+                            <td>Sumit Kalra</td>
+                            <td>IIT, Jodhpur</td>
+                        </tr>
+                        <tr>
+                            <td>Debdatta Kandar</td>
+                            <td>North Eastern Hill University</td>
+                        </tr>
+                        <tr>
+                            <td>Sujit Das</td>
+                            <td>National Institute of Technology Warangal</td>
+                        </tr>
+                        <tr>
+                            <td>Subbulakshmi T</td>
+                            <td>Velore Institute of Technology</td>
+                        </tr>
+                        <tr>
+                            <td>Maheswari.R</td>
+                            <td>Velore Institute of Technology</td>
+                        </tr>
+                        <tr>
+                            <td>Arnab Kumar Maji</td>
+                            <td>North Eastern Hill University</td>
+                        </tr>
+                        <tr>
+                            <td>Janaki Meena Murugan</td>
+                            <td>Velore Institute of Technology</td>
+                        </tr>
+                        <tr>
+                            <td>Pradeep Kumar TS</td>
+                            <td>Velore Institute of Technology</td>
+                        </tr>
+                        <tr>
+                            <td>Mithlesh Arya</td>
+                            <td>Swami Keshvanand Institute of Technology, Jaipur</td>
+                        </tr>
+                        <tr>
+                            <td>Sutanu Chakraborti</td>
+                            <td>IIT, Madras</td>
+                        </tr>
+                        <tr>
+                            <td>Sunil B. Mane</td>
+                            <td>COEP Technological University, Pune</td>
+                        </tr>
+                        <tr>
+                            <td>Megha Gupta</td>
+                            <td>Swami Keshvanand Institute of Technology, Management & Gramothan, Jaipur</td>
+                        </tr>
+                        <tr>
+                            <td>Anindya Halder</td>
+                            <td>North-Eastern Hill University</td>
+                        </tr>
+                        <tr>
+                            <td>Nitesh K Bharadwaj</td>
+                            <td>IIIT, Pune</td>
+                        </tr>
+                        <tr>
+                            <td>Nithya Balasubramanian</td>
+                            <td>NIT, Trichy</td>
+                        </tr>
+                        <tr>
+                            <td>Somitra Kr. Sanadhya</td>
+                            <td>IIT Jodhpur</td>
+                        </tr>
+                        <tr>
+                            <td>ANIL KUMAR VERMA</td>
+                            <td>Thapar University</td>
+                        </tr>
+                        <tr>
+                            <td>Mrityunjay Singh</td>
+                            <td>IIIT, Una</td>
+                        </tr>
+                        <tr>
+                            <td>Shefali Arora Chouhan</td>
+                            <td>NIT, Jalandhar</td>
+                        </tr>
+                        <tr>
+                            <td>Jaspal Kaur Saini</td>
+                            <td>IIIT, Una</td>
+                        </tr>
+                        <tr>
+                            <td>Kanu Goel</td>
+                            <td>Punjab Engineering College, Chandigarh</td>
+                        </tr>
+                        <tr>
+                            <td>Vijay Kumar</td>
+                            <td>NIT, Jalandhar</td>
+                        </tr>
+                        <tr>
+                            <td>Somesula Manoj Kumar</td>
+                            <td>NIT, Jalandhar</td>
+                        </tr>
+                        <tr>
+                            <td>Prashant Kumar</td>
+                            <td>NIT, Jalandhar</td>
+                        </tr>
+                        <tr>
+                            <td>Krishan Kumar</td>
+                            <td>NIT,  KURUKSHETRA</td>
+                        </tr>
+                        <tr>
+                            <td>Anoop Patel</td>
+                            <td>NIT,  KURUKSHETRA</td>
+                        </tr>
+                        <tr>
+                            <td>Dhiren patel</td>
+                            <td>NIT, Surat</td>
+                        </tr>
+                        <tr>
+                            <td>Shveta Mahajan</td>
+                            <td>NIT, Jalandhar</td>
+                        </tr>
+                        <tr>
+                            <td>Satnam Kaur</td>
+                            <td>Punjab Engineering College</td>
+                        </tr>
+                        <tr>
+                            <td>Vikram Singh</td>
+                            <td>NIT,  KURUKSHETRA</td>
+                        </tr>
+                        <tr>
+                            <td>Virender Ranga</td>
+                            <td>NIT,  KURUKSHETRA</td>
+                        </tr>
+                        <tr>
+                            <td>Kriti Bhushan</td>
+                            <td>NIT,  KURUKSHETRA</td>
+                        </tr>
+                        <tr>
+                            <td>Pratistha Verma</td>
+                            <td>NIT,  KURUKSHETRA</td>
+                        </tr>
+                        <tr>
+                            <td>Ayoub Khan</td>
+                            <td>University of Bisha, Bisha, Kingdom of Saudi Arabia</td>
+                        </tr>
+                        <tr>
+                            <td>Avani Vyas</td>
+                            <td>NIT, Jalandhar</td>
+                        </tr>
+                        <tr>
+                            <td>sushil kumar</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Deepak Ranjan Nayak</td>
+                            <td>Malaviya National Institute of Technology Jaipur</td>
+                        </tr>
+                        <tr>
+                            <td>Deepak Mishra</td>
+                            <td>IIT, Jodhpur</td>
+                        </tr>
+                        <tr>
+                            <td>Rituraj Soni</td>
+                            <td>Engineering College Bikaner</td>
+                        </tr>                                                                                             
                     </tbody>
                 </table>
                 </div>

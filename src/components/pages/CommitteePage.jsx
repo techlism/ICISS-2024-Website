@@ -537,7 +537,7 @@ const CommitteePage = ()=>{
                             <td>NIT, Jalandhar</td>
                         </tr>
                         <tr>
-                            <td>sushil kumar</td>
+                            <td>Sushil Kumar</td>
                             <td></td>
                         </tr>
                         <tr>

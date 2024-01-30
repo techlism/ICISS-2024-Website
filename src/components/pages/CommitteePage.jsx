@@ -551,7 +551,51 @@ const CommitteePage = ()=>{
                         <tr>
                             <td>Rituraj Soni</td>
                             <td>Engineering College Bikaner</td>
-                        </tr>                                                                                             
+                        </tr>   
+                        <tr>
+                            <td>Parveen Kumar</td>
+                            <td>NIT, Kurukshetra</td>
+                        </tr>
+                        <tr>
+                            <td>Swapan Maiti</td>
+                            <td>VNIT, Nagpur</td>                        
+                        </tr>
+                        <tr>
+                            <td>Vincenzo Piuri</td>
+                            <td>University of Milan, Italy</td>
+                        </tr>
+                        <tr>
+                            <td>Niyati Baliyan</td>
+                            <td>NIT, Kurukshetra</td>
+                        </tr>
+                        <tr>
+                            <td>Vijay Kumar</td>
+                            <td>NIT, Hamirpur</td>
+                        </tr>
+                        <tr>
+                            <td>Jaspal Kaur Saini</td>
+                            <td>IIIT, Una</td>
+                        </tr>
+                        <tr>
+                            <td>Mrityunjay Singh</td>
+                            <td>IIIT, Una</td>
+                        </tr>
+                        <tr>
+                            <td>Pardeep Singh</td>
+                            <td>NIT, Hamirpur</td>
+                        </tr>
+                        <tr>
+                            <td>Shashi Gurung</td>
+                            <td>Govt. Hydro Engineering College</td>
+                        </tr>
+                        <tr>
+                            <td>Ajay Kumar Mallick</td>
+                            <td>NIT, Hamirpur</td>
+                        </tr>
+                        <tr>
+                            <td>Nisha Chaurasia</td>
+                            <td>NIT, Jalandhar</td>
+                        </tr>                                                                                                                                                                                                                                              
                     </tbody>
                 </table>
                 </div>

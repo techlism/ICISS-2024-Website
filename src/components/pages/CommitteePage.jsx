@@ -42,7 +42,7 @@ const CommitteePage = ()=>{
                     <ProfessorCard name='Mrinal Mandal' description='University of Alberta, Canada'/>
                     <ProfessorCard name='Koushik Sinha' description='Southern Illinois University, USA'/>
                 </div>
-                <h2 className={styling.h2} >Advisory Committee:</h2>
+                <h2 className={styling.h2} >International Advisory Committee:</h2>
                 <div className={styling.professorsGrid}>
                     <ProfessorCard name='Bhabani P Sinha' description='ISI Kolkata'/>
                     <ProfessorCard name='N. K. Goyal' description="CMAI Association of India"/>

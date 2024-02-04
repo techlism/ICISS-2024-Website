@@ -523,15 +523,15 @@ const CommitteePage = ()=>{
                         </tr>
                         <tr>
                             <td>Vikram Singh</td>
-                            <td>NIT,  KURUKSHETRA</td>
+                            <td>NIT, KURUKSHETRA</td>
                         </tr>
                         <tr>
                             <td>Virender Ranga</td>
-                            <td>NIT,  KURUKSHETRA</td>
+                            <td>NIT, KURUKSHETRA</td>
                         </tr>
                         <tr>
                             <td>Kriti Bhushan</td>
-                            <td>NIT,  KURUKSHETRA</td>
+                            <td>NIT, KURUKSHETRA</td>
                         </tr>
                         <tr>
                             <td>Pratistha Verma</td>
@@ -547,7 +547,7 @@ const CommitteePage = ()=>{
                         </tr>
                         <tr>
                             <td>Sushil Kumar</td>
-                            <td></td>
+                            <td>NIT, KURUKSHETRA</td>
                         </tr>
                         <tr>
                             <td>Deepak Ranjan Nayak</td>
@@ -608,7 +608,11 @@ const CommitteePage = ()=>{
                         <tr>
                             <td>Pranav Kumar Chaudhary</td>
                             <td>Senior SDE, Amazon</td>
-                        </tr>                                                                                                                                                                                                                                                                   
+                        </tr>           
+                        <tr>
+                            <td>Arindam Biswas</td>
+                            <td>Kazi Nazrul University</td>
+                        </tr>                                                                                                                                                                                                                                                                                
                     </tbody>
                 </table>
                 </div>

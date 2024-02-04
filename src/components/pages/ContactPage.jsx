@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLocation} from '@fortawesome/free-solid-svg-icons';
 import styling from './ContactPage.module.css';
-import ContactCard from '../ContactCard';
+import ContactCard from '../ui/ContactCard';
 const ContactPage = ()=>{
     return(
         <div className={styling['main-contact']}>

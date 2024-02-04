@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar.jsx';
+import Navbar from './components/ui/Navbar.jsx';
 import { BrowserRouter,Routes, Route } from "react-router-dom";
 import AboutPage from './components/pages/AboutPage';
 import HomePage from './components/pages/HomePage' ;
@@ -8,7 +8,7 @@ import GuidelinesPage from './components/pages/GuidelinesPage.jsx';
 import ContactPage from './components/pages/ContactPage.jsx';
 import CommitteePage from './components/pages/CommitteePage.jsx';
 import SpeakersPage from './components/pages/SpeakersPage.jsx';
-import Footer from './components/Footer.jsx';
+import Footer from './components/ui/Footer.jsx';
 import AboutCollegePage from './components/pages/AboutCollegePage.jsx';
 import SubmitPaper from './components/pages/SubmitPage.jsx';
 import ContributionTrackPage from './components/pages/ContributionTrackPage.jsx';

@@ -1,14 +1,14 @@
 import styling from './HomePage.module.css';
 import imgsrc from '../../assets/bg.png'
-import AboutCollege from '../AboutCollege';
-import Timeline from '../Timeline';
+import AboutCollege from '../ui/AboutCollege';
+import Timeline from '../ui/Timeline';
 // import Pricing from '../Pricing';
 // import Sponsors from '../Sponsors';
-import About from '../About'
+import About from '../ui/About'
 import sponsorimg from '../../assets/cdac.jpeg';
 import {useLocation,NavLink} from 'react-router-dom';
-import TimeLeftCounter from '../TimeLeftCounter';
-import AddressMap from '../AddressMap';
+import TimeLeftCounter from '../ui/TimeLeftCounter';
+import AddressMap from '../ui/AddressMap';
 const navlinkStyling = {
     textDecoration:'none',
     textAlign:'center',

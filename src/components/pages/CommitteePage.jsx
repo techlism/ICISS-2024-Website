@@ -1,4 +1,4 @@
-import ProfessorCard from "../../ProfessorCard";
+import ProfessorCard from '../ui/ProfessorCard'
 import styling from './CommitteePage.module.css';
 const CommitteePage = ()=>{
     return(
@@ -48,8 +48,17 @@ const CommitteePage = ()=>{
                     <ProfessorCard name='N. K. Goyal' description="CMAI Association of India"/>
                     <ProfessorCard name="Valentin Brimkov" description="Buffalo State University, USA"/>
                     <ProfessorCard name="Reneta Barneva" description="State University of New York at Fredonia, USA"/>
+                    <ProfessorCard name='Athanasios V. Vasilakos' description='UiA, Norway'/>
+                    <ProfessorCard name='Adam Slowik' description='Koszalin University of Technology, Poland'/>
+                    <ProfessorCard name='Xin-She Yang' description='Middlesex University London, UK'/>
+                    <ProfessorCard name='Takako Hashimoto' description='Chiba University of Commerce, Japan'/>
+                    <ProfessorCard name='Valentina E. Balas' description='Aurel Vlaicu University of Arad, ROMANIA'/>
+                    <ProfessorCard name='Jon Hall' description='The Open University, Milton Keynes, UK'/>
+                    <ProfessorCard name='Mohammad Shahidehpour' description='Illinois Institute of Technology, Chicago, USA'/>
+                    <ProfessorCard name='Rajkumar Buyya' description='University of Melbourne, Australia'/>
+                   
                 </div>
-                <h2 className={styling.h2} >Website Committee</h2>
+                <h2 className={styling.h2} >Website Committee:</h2>
                 <div className={styling.professorsGrid}>
                     <ProfessorCard name="Indrajit Banerjee" description="IIEST, Shibpur, India"/>
                     <ProfessorCard name = "Kundan Kumar" description="IIEST, Shibpur, India"/>
@@ -66,7 +75,7 @@ const CommitteePage = ()=>{
                     <ProfessorCard name="Malay Kule" description="IIEST, Shibpur, India"/>
                     <ProfessorCard name="Samit Biswas" description="IIEST, Shibpur, India"/>
                 </div>
-                <h2 className={styling.h2} >Technical Program Committee:</h2>
+                <h2 className={styling.h2} style={{textAlign:'center'}} >Technical Program Committee:</h2>
                 <div className={styling['tcp-table']}>
                 <table>
                     <thead>
@@ -595,7 +604,11 @@ const CommitteePage = ()=>{
                         <tr>
                             <td>Nisha Chaurasia</td>
                             <td>NIT, Jalandhar</td>
-                        </tr>                                                                                                                                                                                                                                              
+                        </tr>   
+                        <tr>
+                            <td>Pranav Kumar Chaudhary</td>
+                            <td>Senior SDE, Amazon</td>
+                        </tr>                                                                                                                                                                                                                                                                   
                     </tbody>
                 </table>
                 </div>

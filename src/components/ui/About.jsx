@@ -1,5 +1,5 @@
 // AboutCard for About Conference - DIV
-import springerLogo from '../assets/springer.png';
+import springerLogo from '../../assets/springer.png';
 import styling from './About.module.css';
 const About = ()=>{
  return(

@@ -1,4 +1,4 @@
-import ConferenceTopics from "../ConferenceTopics.jsx"
+import ConferenceTopics from '../ui/ConferenceTopics.jsx'
 
 const ContributionTrackPage = ()=>{
     return(

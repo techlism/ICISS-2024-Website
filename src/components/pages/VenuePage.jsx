@@ -1,4 +1,4 @@
-import AddressMap from "../AddressMap";
+import AddressMap from "../ui/AddressMap";
 const VenuePage = () => {
   return (
     <div 

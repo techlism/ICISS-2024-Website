@@ -1,4 +1,4 @@
-import AboutCollege from "../AboutCollege";
+import AboutCollege from "../ui/AboutCollege";
 
 const AboutCollegePage = () =>{
     return(

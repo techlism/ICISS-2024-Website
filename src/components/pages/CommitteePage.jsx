@@ -2,7 +2,7 @@ import ProfessorCard from '../ui/ProfessorCard'
 import styling from './CommitteePage.module.css';
 const CommitteePage = ()=>{
     return(
-        <div className={styling['main-committeepage']}>
+        <div className={styling['main-committeepage']} style={{marginTop:'25px'}}>
             <div className={styling.professors}>
                 <h2 className={styling.h2} >Chief Patron:</h2>
                 <div className={styling.professorsGrid}>
@@ -85,46 +85,6 @@ const CommitteePage = ()=>{
                         </tr>
                     </thead>
                     <tbody>
-                        {/* <tr>
-                            <td>B. Mitra</td>
-                            <td>IIT, KGP, India</td>
-                        </tr>
-                        <tr>
-                            <td>B.Patra</td>
-                            <td>IIT, BHU, India</td>
-                        </tr>
-                        <tr>
-                            <td>S.Gangopadhyay</td>
-                            <td>IIT Roorkee, India</td>
-                        </tr>
-                        <tr>
-                            <td>B.C. Dhara</td>
-                            <td>Jadavpur University, India</td>
-                        </tr>
-                        <tr>
-                            <td>J.K. Singh</td>
-                            <td>Jadavpur University, India</td>
-                        </tr>
-                        <tr>
-                            <td>D. Saha</td>
-                            <td>Jadavpur University, India</td>
-                        </tr>
-                        <tr>
-                            <td>J.K. Mondal</td>
-                            <td>Kalyani University, India</td>
-                        </tr>
-                        <tr>
-                            <td>D. Kandar.</td>
-                            <td>NEHU, India</td>
-                        </tr>
-                        <tr>
-                            <td>S. Kar</td>
-                            <td>NIT, Durgapur, India</td>
-                        </tr>
-                        <tr>
-                            <td>D. Nandi</td>
-                            <td>NIT, Durgapur, India</td>
-                        </tr> */}
                         <tr>
                             <td>Vijayan K. Asari</td>
                             <td>University of Dayton, USA</td>
@@ -612,7 +572,15 @@ const CommitteePage = ()=>{
                         <tr>
                             <td>Arindam Biswas</td>
                             <td>Kazi Nazrul University</td>
-                        </tr>                                                                                                                                                                                                                                                                                
+                        </tr>
+                        <tr>
+                            <td>Christoph Meinel</td>
+                            <td>German University of Digital Science</td>
+                        </tr>
+                        <tr>
+                            <td>Rolando Herrero</td>
+                            <td>Northeastern University, USA</td>
+                        </tr>                                                                                                                                                                                                                                                                                                        
                     </tbody>
                 </table>
                 </div>

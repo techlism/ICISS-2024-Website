@@ -11,16 +11,16 @@
 .h2{
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     text-align: left;
-    color: #EDEEF7;
+    color: #fdafce;
     margin-top: 5px;
 }
 .professorsGrid {
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     
 }
 .tcp-table{
@@ -29,12 +29,20 @@
     justify-content: center;
 
 }
+
+.tcp-table > table > thead > tr > th{
+    /* it is a cell of the table */
+    color: #fdafce;
+    font-weight: 500;
+}
+
 .tcp-table > table > tbody > tr > td{
     /* it is a cell of the table */
     color: #EDEEF7;
     font-family: 'Poppins',sans-serif;
     font-weight: 500;
     font-size: 0.9rem;
+    padding: 6.5px;
 }
 
 @media only screen and (max-width: 450px) {

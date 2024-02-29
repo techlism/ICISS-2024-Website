@@ -28,7 +28,12 @@
     display: flex;
     justify-content: center;
 
+
 }
+.tcp-table > table {
+    max-width: 35vw;
+}
+
 
 .tcp-table > table > thead > tr > th{
     /* it is a cell of the table */
@@ -45,9 +50,17 @@
     padding: 6.5px;
 }
 
+@media screen and (max-width: 780px){
+    .tcp-table > table {
+        max-width: 65vw;
+    }
+}
+
 @media only screen and (max-width: 450px) {
     .h2{
         font-size: 1.5rem;
     }
-
+    .tcp-table > table {
+        max-width: 90vw;
+    }    
 }

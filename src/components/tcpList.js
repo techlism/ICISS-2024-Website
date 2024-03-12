@@ -131,7 +131,9 @@ const TCPMembers = [
     { name: 'Geeta Pyne', organization: 'TIAA, San Jose, California, USA' },
     { name: 'Khan Wahid', organization: 'University of Saskatchewan, Canada' },
     { name: 'Nilanjan Ray', organization: 'University of Alberta, Canada' },
-    { name: 'Hongming Xu', organization: 'Dalian University of Technology, China' }    
+    { name: 'Hongming Xu', organization: 'Dalian University of Technology, China' },
+    { name: 'Keshav Dahal', organization: 'University of the West of Scotland High Street, UK' },
+    { name: 'Mueen Uddin', organization: 'University of Doha for Science and Technology, Qatar' },    
 ];
 
 export default TCPMembers;

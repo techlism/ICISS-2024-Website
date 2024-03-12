@@ -1,5 +1,5 @@
 import React from 'react';
-import icisslogo from '../../assets/icisslogo2.png';
+import icisslogo from '../../assets/ICISS.ico';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'jquery/dist/jquery.min.js';

@@ -134,6 +134,15 @@ const TCPMembers = [
     { name: 'Hongming Xu', organization: 'Dalian University of Technology, China' },
     { name: 'Keshav Dahal', organization: 'University of the West of Scotland High Street, UK' },
     { name: 'Mueen Uddin', organization: 'University of Doha for Science and Technology, Qatar' },    
+    { name: 'Sajedul Talukder' , organization: 'Southern Illinois University'},
+    {name : 'A. Vijaya Lakshmi', organization: 'B V Raju Institute of Technology'},
+    {name: 'Banafsheh Rekabdar' , organization: 'Portland State University'},
+    {name: 'Aloizio Pereira da Silva', organization: 'Commonwealth Cyber Initaitive, Virginia Tech'},
+    {name:'Goutham Reddy', organization: 'University of Illinois, Springfield USA' },
+    {name: 'Rabindra Bista' , organization: 'Katmandu University, Nepal'},
+    {name: 'Kuo-Hui Yeh' , organization: 'National Yang Ming Chiao Tung University, Taiwan'},
+    {name: 'Raveendra Babu Ponnuru' , organization: 'Cleveland State University, USA'},
+    
 ];
 
 export default TCPMembers;

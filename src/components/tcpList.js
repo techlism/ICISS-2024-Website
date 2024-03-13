@@ -142,6 +142,17 @@ const TCPMembers = [
     {name: 'Rabindra Bista' , organization: 'Katmandu University, Nepal'},
     {name: 'Kuo-Hui Yeh' , organization: 'National Yang Ming Chiao Tung University, Taiwan'},
     {name: 'Raveendra Babu Ponnuru' , organization: 'Cleveland State University, USA'},
+    { name: "Keshav Dahal", organization: "University of the West of Scotland" },
+    { name: "Mueen Uddin", organization: "University of Doha for Science & Technology Qatar" },
+    { name: "Mohammad Wazid", organization: "Graphic Era Deemed to be University, Dehradun, India" },
+    { name: "Tso Raylin", organization: "National Chengchi University, Taiwan" },
+    { name: "Cheng-Chi Lee", organization: "Fu Jen Catholic University, Taiwan" },
+    { name: "Arijit Karati", organization: "National Sun Yat-sen University, Taiwan" },
+    { name: "Joy Dutta", organization: "Khalifa University of Science and Technology, UAE" },
+    { name: "Alawi A. Al-saggaf", organization: "King Fahd University of Petroleum and Minerals, Saudi Arabia" },
+    { name: "Marko Hölbl", organization: "University of Maribor, Slovenija" },
+    { name: "Fagen Li", organization: "University of Electronic Science and Technology of China, P.R.China" },
+    { name: "Akber Ali Khan", organization: "IIMT College of Engineering, Greater Noida, India" }
     
 ];
 

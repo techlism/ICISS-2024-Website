@@ -20,7 +20,11 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    /* gap: 10px; */
+    /* background-color: #000567; */
+    border-radius: 10px;
+    padding:2px;
     
 }
 .tcp-table{

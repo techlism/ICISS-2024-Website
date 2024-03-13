@@ -9,15 +9,27 @@
     border-radius: 8px;
     padding: 5px;
     margin: 4px;
-    max-height: fit-content;
+    max-height: fit-content;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 .name{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    margin: 2px;
+    padding: 0;
+    margin: 0;
+    margin-right: 7px;
+    /* margin: 2px; */
 }
 .description{
     font-weight: 400;
-    font-size: 0.8rem;
-    margin: 2px;
+    font-style: italic;
+    font-size: 0.85rem;
+    padding: 0;
+    margin: 0;
+    justify-self: baseline;
+    /* margin: 2px; */
 }

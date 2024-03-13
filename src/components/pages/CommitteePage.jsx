@@ -32,12 +32,12 @@ const CommitteePage = ()=>{
                 <div className={styling.professorsGrid}>
                     <ProfessorCard name='Santi Prasad Maity' description='IIEST, Shibpur, India' page="https://www.iiests.ac.in/IIEST/Faculty/it-santipmaity"/>
                     <ProfessorCard name='Arindam Biswas' description='IIEST, Shibpur, India' page="https://www.iiests.ac.in/IIEST/Faculty/it-abiswas"/>
-                    <ProfessorCard name='Aditya Sinha' description='CDAC Kolkata' page='https://www.linkedin.com/in/adityaksinha/?originalSubdomain=in'/>
+                    <ProfessorCard name='Aditya Sinha' description='CDAC Kolkata, India' page='https://www.linkedin.com/in/adityaksinha/?originalSubdomain=in'/>
                 </div>
                 <h2 className={styling.h2} >General Co-Chairs:</h2>
                 <div className={styling.professorsGrid}>
-                    <ProfessorCard name='Santosh K. Pandey' description="MEITy, GoI" page='https://ieeexplore.ieee.org/author/37089794568'/>
-                    <ProfessorCard name='Chandan Koner' description="Kazi Nazrul University"/>
+                    <ProfessorCard name='Santosh K. Pandey' description="MEITy, GoI, India" page='https://ieeexplore.ieee.org/author/37089794568'/>
+                    <ProfessorCard name='Chandan Koner' description="Kazi Nazrul University, India"/>
                 </div>
                 <h2 className={styling.h2} >Organizing Chair:</h2>
                 <div className={styling.professorsGrid}>
@@ -60,7 +60,7 @@ const CommitteePage = ()=>{
                 </div>
                 <h2 className={styling.h2} >International Advisory Committee:</h2>
                 <div className={styling.professorsGrid}>
-                    <ProfessorCard name='Bhabani P Sinha' description='ISI Kolkata' page='https://www.isical.ac.in/~bhabani/'/>
+                    <ProfessorCard name='Bhabani P Sinha' description='ISI Kolkata, India' page='https://www.isical.ac.in/~bhabani/'/>
                     <ProfessorCard name='N. K. Goyal' description="CMAI Association of India" page='https://www.cmai.asia/propfile_NKG.php'/>
                     <ProfessorCard name="Valentin Brimkov" description="Buffalo State University, USA" page='https://dblp.org/pid/b/ValentinEBrimkov.html'/>
                     <ProfessorCard name="Reneta Barneva" description="State University of New York at Fredonia, USA" page='https://www.fredonia.edu/academics/colleges-schools/school-business/applied-professional-studies/faculty/Reneta-Barneva'/>

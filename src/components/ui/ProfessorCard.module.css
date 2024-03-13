@@ -1,4 +1,6 @@
 .professor-card{
+    display: flex;
+    align-items: center;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     /* background-color: #1e0149; */
@@ -6,9 +8,9 @@
     text-align: center;
     color: #EDEEF7;
     /* width:45vw; */
-    border-radius: 8px;
+    /*border-radius: 8px;*/
+    width: 45vw;
     padding: 5px;
-    margin: 4px;
     max-height: fit-content;
 }
 .name{
@@ -17,7 +19,9 @@
     margin: 2px;
 }
 .description{
+    font-style: italic;
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin: 2px;
+    margin-left: 7px;
 }

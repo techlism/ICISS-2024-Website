@@ -32,12 +32,12 @@ const CommitteePage = ()=>{
                 <div className={styling.professorsGrid}>
                     <ProfessorCard name='Santi Prasad Maity' description='IIEST, Shibpur, India'/>
                     <ProfessorCard name='Arindam Biswas' description='IIEST, Shibpur, India'/>
-                    <ProfessorCard name='Aditya Sinha' description='CDAC Kolkata'/>
+                    <ProfessorCard name='Aditya Sinha' description='CDAC Kolkata, India'/>
                 </div>
                 <h2 className={styling.h2} >General Co-Chairs:</h2>
                 <div className={styling.professorsGrid}>
-                    <ProfessorCard name='Santosh K. Pandey' description="MEITy, GoI"/>
-                    <ProfessorCard name='Chandan Koner' description="Kazi Nazrul University"/>
+                    <ProfessorCard name='Santosh K. Pandey' description="MEITy, GoI, India"/>
+                    <ProfessorCard name='Chandan Koner' description="Kazi Nazrul University, India"/>
                 </div>
                 <h2 className={styling.h2} >Organizing Chair:</h2>
                 <div className={styling.professorsGrid}>
@@ -60,7 +60,7 @@ const CommitteePage = ()=>{
                 </div>
                 <h2 className={styling.h2} >International Advisory Committee:</h2>
                 <div className={styling.professorsGrid}>
-                    <ProfessorCard name='Bhabani P Sinha' description='ISI Kolkata'/>
+                    <ProfessorCard name='Bhabani P Sinha' description='ISI Kolkata, India'/>
                     <ProfessorCard name='N. K. Goyal' description="CMAI Association of India"/>
                     <ProfessorCard name="Valentin Brimkov" description="Buffalo State University, USA"/>
                     <ProfessorCard name="Reneta Barneva" description="State University of New York at Fredonia, USA"/>
@@ -78,6 +78,8 @@ const CommitteePage = ()=>{
                 <div className={styling.professorsGrid}>
                     <ProfessorCard name="Indrajit Banerjee" description="IIEST, Shibpur, India"/>
                     <ProfessorCard name = "Kundan Kumar" description="IIEST, Shibpur, India"/>
+                    <ProfessorCard name = "Sumit Mangrati" description="IIEST, Shibpur, India"/>
+
                 </div>
                 <h2 className={styling.h2} >Organizing Committee:</h2>
                 <div className={styling.professorsGrid}>

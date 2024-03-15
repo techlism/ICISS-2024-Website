@@ -154,6 +154,7 @@ const TCPMembers = [
     { name: "Fagen Li", organization: "University of Electronic Science and Technology of China, P.R.China" },
     { name: "Akber Ali Khan", organization: "IIMT College of Engineering, Greater Noida, India" },
     { name: 'Chun-Ta Li', organization: "Fu Jen Catholic University, Taiwan"},
+    {name: 'Debiao He', organization: 'Wuhan University, China'},
     
 ];
 

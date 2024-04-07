@@ -6,6 +6,7 @@ import Timeline from '../ui/Timeline';
 // import Sponsors from '../Sponsors';
 import About from '../ui/About'
 import sponsorimg from '../../assets/cdac.jpeg';
+
 import {useLocation,NavLink} from 'react-router-dom';
 import TimeLeftCounter from '../ui/TimeLeftCounter';
 import AddressMap from '../ui/AddressMap';
@@ -37,9 +38,17 @@ const HomePage = ()=>{
             </div>            
             <h2 className={styling.subheading}>In Association with</h2>
             <div className={styling['sponsordiv']}>
-                <img src={sponsorimg} alt="cdac" />                
+                <div>
+                    <img src={sponsorimg} alt="cdac" /> 
+                    <h3 className={styling['sponsor-caption']}>CDAC, Kolkata</h3> 
+                </div>
+                <div>
+                    <img src={'/kolkatapolice.svg'} alt="kolkata police logo" />
+                    <h3 className={styling['sponsor-caption']}>Kolkata Police</h3>  
+                </div>
+                                      
             </div>
-            <h3 className={styling['sponsor-caption']}>CDAC, Kolkata</h3>
+                         
             {/* <Sponsors src1={sponsorimg} src2={sponsorimg} src3={sponsorimg}/>
             <h2 className={styling.subheading}>Our Sponsors</h2>
             <Sponsors src1={sponsorimg} src2={sponsorimg} src3={sponsorimg}/> */}

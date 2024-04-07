@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     margin-top: 70px;
-    margin-bottom:359px;
+    margin-bottom: 70px;
+    align-items: center;
 }
 .heading{
     font-family: 'Poppins',sans-serif;

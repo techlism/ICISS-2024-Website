@@ -7,7 +7,7 @@ const SpeakersPage = ()=>{
         <div className={styling['main-speakerpage']}>
             <div className={styling.professors}>
                 <h1 className={styling.heading}>Our Speakers</h1>
-                <div style={{ display: 'flex', flexWrap: 'wrap' , justifyContent : 'center', color : '#EDEEF7'}}>
+                <div style={{color : '#EDEEF7', alignItems:'center'}}>
                     <div style={{ width: '25%', padding: '10px' , border : 'solid 2px black', borderRadius : '8px', marginRight : '5px'}}>
                         <img
                             src="/speaker01.jpg"

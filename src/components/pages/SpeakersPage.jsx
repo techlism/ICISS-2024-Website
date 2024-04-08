@@ -8,7 +8,7 @@ const SpeakersPage = ()=>{
             <div className={styling.professors}>
                 <h1 className={styling.heading}>Our Speakers</h1>
                 <div style={{color : '#EDEEF7', display: 'flex', flexDirection : 'column', alignItems:'center'}}>
-                    <div style={{ width: '45%', padding: '10px' , border : 'solid 2px black', borderRadius : '8px', marginBottom : '20px'}}>
+                    <div style={{ width: '55%', padding: '10px' , border : 'solid 2px black', borderRadius : '8px', marginBottom : '20px'}}>
                         <img
                             src="/speaker01.jpg"
                             alt="Debdeep Mukhopadhyay Image"
@@ -20,7 +20,7 @@ const SpeakersPage = ()=>{
                             Technology, Kharagpur, India
                         </p>
                     </div>
-                    <div style={{ width: '45%', padding: '10px' ,border : 'solid 2px black', borderRadius : '8px'}}>
+                    <div style={{ width: '55%', padding: '10px' ,border : 'solid 2px black', borderRadius : '8px'}}>
                         <img
                             src="/speaker02.png"
                             alt="Sansanee Auephanwiriyakul Image"

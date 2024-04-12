@@ -18,3 +18,21 @@
     font-weight: 500;
     color: #EDEEF7;
 }
+.speakerContainer{
+    /* color: "#EDEEF7", */
+            /* display: "flex", */
+            /* alignItems: "center", */
+            /* justifyContent: "space-around", */
+            color: #EDEEF7;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+}
+@media screen and (max-width: 360px){
+    .speaker-container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

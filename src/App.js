@@ -7,7 +7,7 @@ import RegistrationPage from './components/pages/RegistrationPage.jsx';
 import GuidelinesPage from './components/pages/GuidelinesPage.jsx';
 import ContactPage from './components/pages/ContactPage.jsx';
 import CommitteePage from './components/pages/CommitteePage.jsx';
-import SpeakersPage from './components/pages/SpeakersPage.jsx';
+import SpeakersPage from './components/pages/SpeakerPage2.jsx';
 import Footer from './components/ui/Footer.jsx';
 import AboutCollegePage from './components/pages/AboutCollegePage.jsx';
 import SubmitPaper from './components/pages/SubmitPage.jsx';

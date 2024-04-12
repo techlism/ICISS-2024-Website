@@ -77,6 +77,7 @@ const CommitteePage = ()=>{
                 <div className={styling.professorsGrid}>
                     <ProfessorCard name="Indrajit Banerjee" description="IIEST, Shibpur, India" page="https://www.iiests.ac.in/IIEST/Faculty/it-ibanerjee"/>
                     <ProfessorCard name = "Kundan Kumar" description="IIEST, Shibpur, India" page="https://www.linkedin.com/in/kundan-kumar-a54461202/"/>
+                    <ProfessorCard name = "Sumit Mangrati" description="IIEST, Shibpur, India" page="https://lesgosumit.netlify.app/"/>
                 </div>
                 <h2 className={styling.h2} >Organizing Committee:</h2>
                 <div className={styling.professorsGrid}>

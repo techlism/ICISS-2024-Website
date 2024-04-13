@@ -86,7 +86,7 @@ const TCPMembers = [
     { name: "Nithya Balasubramanian", organization: "NIT, Trichy, India" },
     { name: "Somitra Kr. Sanadhya", organization: "IIT Jodhpur, India" },
     { name: "ANIL KUMAR VERMA", organization: "Thapar University, India" },
-    //{ name: "Mrityunjay Singh", organization: "IIIT, Una, India" },
+    { name: "Mrityunjay Singh", organization: "IIIT, Una, India" },
     { name: "Shefali Arora Chouhan", organization: "NIT, Jalandhar, India" },
     { name: "Jaspal Kaur Saini", organization: "IIIT, Una, India" },
     { name: "Kanu Goel", organization: "Punjab Engineering College, Chandigarh, India" },
@@ -133,7 +133,7 @@ const TCPMembers = [
     { name: 'Nilanjan Ray', organization: 'University of Alberta, Canada' },
     { name: 'Hongming Xu', organization: 'Dalian University of Technology, China' },
     { name: 'Keshav Dahal', organization: 'University of the West of Scotland High Street, UK' },
-    //{ name: 'Mueen Uddin', organization: 'University of Doha for Science and Technology, Qatar' },    
+    { name: 'Mueen Uddin', organization: 'University of Doha for Science and Technology, Qatar' },    
     { name: 'Sajedul Talukder' , organization: 'Southern Illinois University'},
     {name : 'A. Vijaya Lakshmi', organization: 'B V Raju Institute of Technology, India'},
     {name: 'Banafsheh Rekabdar' , organization: 'Portland State University'},
@@ -142,7 +142,7 @@ const TCPMembers = [
     {name: 'Rabindra Bista' , organization: 'Katmandu University, Nepal'},
     {name: 'Kuo-Hui Yeh' , organization: 'National Yang Ming Chiao Tung University, Taiwan'},
     {name: 'Raveendra Babu Ponnuru' , organization: 'Cleveland State University, USA'},
-    //{ name: "Keshav Dahal", organization: "University of the West of Scotland" },
+    { name: "Keshav Dahal", organization: "University of the West of Scotland" },
     { name: "Mueen Uddin", organization: "University of Doha for Science & Technology Qatar" },
     { name: "Mohammad Wazid", organization: "Graphic Era Deemed to be University, Dehradun, India" },
     { name: "Tso Raylin", organization: "National Chengchi University, Taiwan" },
@@ -155,13 +155,7 @@ const TCPMembers = [
     { name: "Akber Ali Khan", organization: "IIMT College of Engineering, Greater Noida, India" },
     { name: 'Chun-Ta Li', organization: "Fu Jen Catholic University, Taiwan"},
     {name: 'Debiao He', organization: 'Wuhan University, China'},
-    {name: 'Salah Mohammed Awad' , organization: 'Al-Heejawi	College of Engineering at Northeastern University, United States' },
-    {name: 'Chowdhury Mofizur Rahman' , organization: 'University of Rajshahi, Bangladesh'},
-    {name: 'Xiao-Zhi Gao' , organization: 'University of Eastern Finland, Finland'},
-
     
 ];
 
 export default TCPMembers;
-
-//Salah Mohammed Awad

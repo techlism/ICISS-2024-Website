@@ -63,10 +63,20 @@
 
 .sponsordiv{
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
+    max-width: 60vw;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-.sponsordiv > div > img{
+.sponsor-subdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sponsor-subdiv > img {
     text-align: center;
     width: 10vw;
     height: 10vw;
@@ -79,7 +89,10 @@
 .sponsor-caption {
     color: #EDEEF7;
     text-align: center;
-    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+    /* margin-bottom: 30px; */
 }
 
 @media only screen and (max-width: 450px) {

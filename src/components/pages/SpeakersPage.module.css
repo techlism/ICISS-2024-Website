@@ -18,3 +18,38 @@
     font-weight: 500;
     color: #EDEEF7;
 }
+
+.speakers-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    color : #EDEEF7;
+}
+.speaker{
+    width: 35%;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 8px;     
+    margin: 20px;
+}
+
+.speaker > img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 780px){
+    .speaker{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 450px){
+    .speaker{
+        width: 82%;
+    }
+    
+}

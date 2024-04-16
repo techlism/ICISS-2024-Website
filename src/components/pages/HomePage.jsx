@@ -38,11 +38,11 @@ const HomePage = ()=>{
             </div>            
             <h2 className={styling.subheading}>In Association with</h2>
             <div className={styling['sponsordiv']}>
-                <div>
+                <div className={styling['sponsor-subdiv']}>
                     <img src={sponsorimg} alt="cdac" /> 
                     <h3 className={styling['sponsor-caption']}>CDAC, Kolkata</h3> 
                 </div>
-                <div>
+                <div className={styling['sponsor-subdiv']}>
                     <img src={'/kolkatapolice.svg'} alt="kolkata police logo" />
                     <h3 className={styling['sponsor-caption']}>Kolkata Police</h3>  
                 </div>

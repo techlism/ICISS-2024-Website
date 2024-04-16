@@ -7,31 +7,32 @@ const SpeakersPage = ()=>{
         <div className={styling['main-speakerpage']}>
             <div className={styling.professors}>
                 <h1 className={styling.heading}>Our Speakers</h1>
-                <div style={{color : '#EDEEF7', display: 'flex', flexDirection : 'column', alignItems:'center'}}>
-                    <div style={{ width: '55%', padding: '10px' , border : 'solid 2px black', borderRadius : '8px', marginBottom : '20px'}}>
+                <div className={styling['speakers-div']}>
+                    <div className={styling['speaker']}>
                         <img
                             src="/speaker01.jpg"
                             alt="Debdeep Mukhopadhyay Image"
-                            style={{ borderRadius: '8px', width: '100%' }}
+                            
                         />
-                        <h1>Debdeep Mukhopadhyay</h1>
+                        <h1>Professor Debdeep Mukhopadhyay</h1>
                         <p>
-                            Professor, Computer Science and Engineering, Indian Institute of
+                            Indian Institute of
                             Technology, Kharagpur, India
                         </p>
                     </div>
-                    <div style={{ width: '55%', padding: '10px' ,border : 'solid 2px black', borderRadius : '8px'}}>
+                    <div className={styling['speaker']}>
                         <img
                             src="/speaker02.png"
                             alt="Sansanee Auephanwiriyakul Image"
-                            style={{ borderRadius: '8px', width: '100%' }}
+                            
                         />
-                        <h1>Sansanee Auephanwiriyakul</h1>
+                        <h1>Professor Sansanee Auephanwiriyakul</h1>
                         <p>
-                            Associate Professor, Computer Engineering Department, Chiang Mai
+                            Chiang Mai
                             University, Chiangmai, Thailand
                         </p>
                     </div>
+                    <p style={{fontSize : '30px'}}>Some more speakers will be added soon.</p>
                 </div>
             </div>
         </div>

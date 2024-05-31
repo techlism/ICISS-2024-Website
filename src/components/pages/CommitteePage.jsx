@@ -72,6 +72,7 @@ const CommitteePage = ()=>{
                     <ProfessorCard name='Jon Hall' description='The Open University, Milton Keynes, UK' page='https://www.open.ac.uk/people/jgh23'/>
                     <ProfessorCard name='Md. Shahidehpour' description='Illinois Institute of Technology, Chicago, USA' page='https://www.iit.edu/directory/people/mohammad-shahidehpour'/>
                     <ProfessorCard name='Rajkumar Buyya' description='University of Melbourne, Australia' page='http://www.buyya.com/'/>
+                    <ProfessorCard name='Vincenzo Piuri' description='Universita&apos; degli Studi di Milano, Italy' page='' />
                 </div>
                 <h2 className={styling.h2} >Website Committee:</h2>
                 <div className={styling.professorsGrid}>

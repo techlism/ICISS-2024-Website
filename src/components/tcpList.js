@@ -341,6 +341,14 @@ const TCPMembers = [
     name: "Xiao-Zhi Gao",
     organization: "University of Eastern Finland, Finland",
   },
+  {
+    name : "Prema Kumar Veerapaneni",
+    organization : "JP Morgan Chase"
+  },
+  {
+    name : "Arvind Kumar Bhardwaj",
+    organization : "Capegemini, USA"
+  }
 ];
 
 export default TCPMembers;

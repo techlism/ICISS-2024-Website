@@ -12,6 +12,7 @@
     width: 45vw;
     padding: 10px;
     max-height: fit-content;
+    border-bottom: solid #edeef74c 1px;
 }
 .name{
     font-size: 1rem;

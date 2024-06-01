@@ -60,6 +60,7 @@ const Navbar = () => {
                 <li><NavLink className="dropdown-item"  to="/venue">Venue</NavLink></li>
                 {/* <li><NavLink className="dropdown-item"  to="/register">Registration Details</NavLink></li> */}
                 {/* <li><NavLink className="dropdown-item"  to="/submit">Submit Your Paper</NavLink></li> */}
+                <li><NavLink className={'dropdown-item'} to={'/tourist-destinations'}>Tourist Destinations</NavLink></li>
               </ul>
             </li>            
             <li className="nav-item">

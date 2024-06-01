@@ -81,5 +81,3 @@ const VenuePage = () => {
 };
 export default VenuePage;
 
-// className={styling.address}
-// className={styling.iframe}

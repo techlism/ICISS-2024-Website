@@ -47,7 +47,7 @@ const destinations = [
 export default function TouristDestinationPage() {
     return (
         <div style={{display:'flex', flexDirection : 'column', alignItems : 'center', justifyContent : 'center'}}>
-            <h1 style={{color:'#EDEEF7', fontFamily:"'Poppins', sans-serif", textAlign:'center', fontWeight : 'bold', marginBottom : '20px'}}>Explore Kolkata's Top Tourist Destinations</h1>
+            <h1 style={{color:'#EDEEF7', fontFamily:"'Poppins', sans-serif", textAlign:'center', fontWeight : 'bold', marginBottom : '20px', marginTop : '20px'}}>Explore Kolkata's Top Tourist Destinations</h1>
             {destinations.map((destination) => (        
                 <div key={destination.name} style={{color:'#EDEEF7', fontFamily:"'Poppins', sans-serif", maxWidth : '60%' , padding : '5px', textAlign:'justify', border : '1px solid #edeef7', borderRadius : '8px' , marginBottom : '15px'}}>
                     <h2>{destination.name}</h2>

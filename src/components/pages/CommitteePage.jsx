@@ -21,7 +21,7 @@ const CommitteePage = ()=>{
             <div className={styling.professors}>
                 <h2 className={styling.h2} >Chief Patron:</h2>
                 <div className={styling.professorsGrid}>
-                    <ProfessorCard name='Parthasarathi Chakrabarti' description='Director, IIEST, Shibpur, India' page = "https://www.iiests.ac.in/IIEST/Faculty/iiests-director"/>
+                    <ProfessorCard name='Prof. V M S R Murthy' description='Director, IIEST, Shibpur, India' page = "https://www.iiests.ac.in/IIEST/Faculty/iiests-director"/>
                 </div>
 
                 <h2 className={styling.h2} >Patron:</h2>
@@ -37,6 +37,7 @@ const CommitteePage = ()=>{
                 <h2 className={styling.h2} >General Co-Chairs:</h2>
                 <div className={styling.professorsGrid}>
                     <ProfessorCard name='Santosh K. Pandey' description="MEITy, GoI, India" page='https://ieeexplore.ieee.org/author/37089794568'/>
+                    <ProfessorCard name='Abhishek Modi' description='IPS,DCP, Cyber Crime, Kolkata Police' page='' />
                     <ProfessorCard name='Chandan Koner' description="Kazi Nazrul University, India"/>
                 </div>
                 <h2 className={styling.h2} >Organizing Chair:</h2>

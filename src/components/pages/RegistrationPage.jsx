@@ -1,4 +1,4 @@
-import Pricing from "../Pricing";
+import Pricing from '../ui/Pricing';
 import styling from './HomePage.module.css';
 import {useLocation} from 'react-router-dom';
 const RegistrationPage = ()=>{

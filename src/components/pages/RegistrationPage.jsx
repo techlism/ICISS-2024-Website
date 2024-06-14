@@ -1,4 +1,4 @@
-// import Pricing from "../Pricing";
+import Pricing from "../Pricing";
 import styling from './HomePage.module.css';
 import {useLocation} from 'react-router-dom';
 const RegistrationPage = ()=>{
@@ -6,8 +6,8 @@ const RegistrationPage = ()=>{
     return(
         <>
         <h2 className={styling.subheading}>Conference Registration Fee</h2>            
-        {/* <Pricing/> */}
-        <p style={
+        <Pricing/>
+        {/* <p style={
             {
                 color:'#EDEEF7',
                 fontWeight:'500',
@@ -15,7 +15,7 @@ const RegistrationPage = ()=>{
                 textAlign:'center',
                 height:'32vh'
             }
-        }>To be updated later.</p>
+        }>To be updated later.</p> */}
         {/* <p style={{
             color:'#EDEEF7',
             fontWeight:'500',

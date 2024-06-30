@@ -348,7 +348,15 @@ const TCPMembers = [
   {
     name : "Arvind Kumar Bhardwaj",
     organization : "Capegemini, USA"
-  }
+  },
+  {
+    name : "Sriparna Mondal",
+    organization : "IIEST, Shibpur, India"
+  },
+  {
+    name : "Ardhendu Sarkar",
+    organization : "IIEST, Shibpur, India"
+  },
 ];
 
 export default TCPMembers;

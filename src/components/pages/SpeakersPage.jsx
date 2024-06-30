@@ -32,6 +32,17 @@ const SpeakersPage = ()=>{
                             University, Chiangmai, Thailand
                         </p>
                     </div>
+                    <div className={styling['speaker']}>
+                        <img
+                            src="https://drdo.gov.in/drdo/sites/default/files/drdo-official-images/DG_ECS18042024.png"
+                            alt="Dr. BK DAS Photo"
+                            
+                        />
+                        <h1>Dr B K Das</h1>
+                        <p>
+                            Distinguished Scientist & Director General - Electronics & Communication Systems (ECS), DRDO
+                        </p>
+                    </div>                    
                     <p style={{fontSize : '30px'}}>Some more speakers will be added soon.</p>
                 </div>
             </div>

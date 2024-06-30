@@ -92,6 +92,11 @@ const CommitteePage = ()=>{
                     <ProfessorCard name="Malay Kule" description="IIEST, Shibpur, India" page ="https://www.iiests.ac.in/IIEST/Faculty/cs-malay"/>
                     <ProfessorCard name="Samit Biswas" description="IIEST, Shibpur, India" page="https://www.iiests.ac.in/IIEST/Faculty/cs-samit"/>
                 </div>
+                <h2 className={styling.h2} >Event Management Committee:</h2>
+                <div className={styling.professorsGrid}>
+                    <ProfessorCard name="Ardhendu Sarkar" description="IIEST, Shibpur, India" page="https://scholar.google.com/citations?user=H6maA7UAAAAJ&hl=en"/>
+                    <ProfessorCard name="Sriparna Mondal" description="IIEST, Shibpur, India" page="https://www.iiests.ac.in/IIEST/StudDetails/?id=MTUwMg=="/>
+                </div>    
                 
                 <h2 className={styling.h2} style={{textAlign:'center'}} >Technical Program Committee:</h2>
                 <div className={styling['tcp-table']}>

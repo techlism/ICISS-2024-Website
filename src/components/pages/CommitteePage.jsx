@@ -39,6 +39,7 @@ const CommitteePage = ()=>{
                     <ProfessorCard name='Santosh K. Pandey' description="MEITy, GoI, India" page='https://ieeexplore.ieee.org/author/37089794568'/>
                     <ProfessorCard name='Abhishek Modi' description='IPS,DCP, Cyber Crime, Kolkata Police' page='' />
                     <ProfessorCard name='Chandan Koner' description="Kazi Nazrul University, India"/>
+                    <ProfessorCard name='Sourav Kaity' description="DRDO, India" />
                 </div>
                 <h2 className={styling.h2} >Organizing Chair:</h2>
                 <div className={styling.professorsGrid}>

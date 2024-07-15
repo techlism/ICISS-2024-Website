@@ -8,7 +8,7 @@ const GuidelinesPage = ()=>{
                     Each paper must be original and unpublished work, not submitted for publication elsewhere. Authors are responsible for avoiding any copyright infringement issues. Papers should be written in good English.
                 </li>
                 <li>
-                    Submissions must be anonymous, without author name(s), affiliation(s), acknowledgments, or obvious references. The paper should start with a title, a short abstract, and a list of keywords. The introduction should provide a summary of the paper's contributions.
+                    Submissions must be anonymous, without author name(s), affiliation(s), acknowledgments, or obvious references in LNNS Format(Word,Latex). The formats are <a href="">ICISS_LNNS Word Template</a> and <a href="">ICISS_LNNS Latex Template</a>. 
                 </li>
                 <li>
                      The recommended font size is 11 points, and reasonable margins should be used.

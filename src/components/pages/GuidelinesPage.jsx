@@ -39,7 +39,7 @@ const GuidelinesPage = ()=>{
                 <a href="/ICISS_LNNS_Word_Template.docx" type='download' style={{textDecoration : 'none' , color : 'white', marginBottom : '10px'}}>
                     <u>Click Here For Sample Springer Paper Format (Word Template)</u>
                 </a>
-                <a href="/ICISS_LNNS_latex_Template.docx" type='download' style={{textDecoration : 'none' , color : 'white'}}>
+                <a href="/ICISS_LNNS_latex_Template.zip" type='download' style={{textDecoration : 'none' , color : 'white'}}>
                     <u>Click Here For Sample Springer Paper Format (Latex Template)</u>
                 </a>                
             </div>

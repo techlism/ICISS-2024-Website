@@ -2,6 +2,7 @@ import styling from './Timeline.module.css'
 const Timeline = ()=>{
     return(
         <div className={styling['table-wrapper']}>
+            {/* Adding a comment for a dummy commit */}
         <table className={styling.table}>         
             <thead>
                 <tr>

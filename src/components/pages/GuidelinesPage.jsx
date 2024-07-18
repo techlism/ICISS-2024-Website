@@ -35,6 +35,14 @@ const GuidelinesPage = ()=>{
                     To explore the topics of interest in detail, please visit the <a href="/about">About ICISS Page</a>.
                 </li>
             </ol>
+            <div style={{display : 'flex' , justifyContent : 'center', flexDirection : 'column' , alignItems : 'center'}}>
+                <a href="/ICISS_LNNS_Word_Template.docx" type='download' style={{textDecoration : 'none' , color : 'white', marginBottom : '10px'}}>
+                    <u>Click Here For Sample Springer Paper Format (Word Template)</u>
+                </a>
+                <a href="/ICISS_LNNS_latex_Template.docx" type='download' style={{textDecoration : 'none' , color : 'white'}}>
+                    <u>Click Here For Sample Springer Paper Format (Latex Template)</u>
+                </a>                
+            </div>
         </div>
     )
 }

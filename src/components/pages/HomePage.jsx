@@ -46,7 +46,10 @@ const HomePage = ()=>{
                     <img src={'/kolkatapolice.svg'} alt="kolkata police logo" />
                     <h3 className={styling['sponsor-caption']}>Kolkata Police</h3>  
                 </div>
-                                      
+                <div className={styling['sponsor-subdiv']}>
+                    <img src={'/webel_logo.jpg'} alt="webel logo" />
+                    <h3 className={styling['sponsor-caption']}>WEBEL, Govt. of West Bengal</h3>
+                </div>                                      
             </div>
                          
             {/* <Sponsors src1={sponsorimg} src2={sponsorimg} src3={sponsorimg}/>

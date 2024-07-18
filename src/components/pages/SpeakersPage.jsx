@@ -42,7 +42,18 @@ const SpeakersPage = ()=>{
                         <p>
                             Distinguished Scientist & Director General - Electronics & Communication Systems (ECS), DRDO
                         </p>
-                    </div>                    
+                    </div> 
+                    <div className={styling['speaker']}>
+                        <img
+                            src="/speaker4.jpg"
+                            alt=" Sanjay Kumar Das, MD, WEBEL, Kolkata Photograph"
+                            
+                        />
+                        <h1> Sanjay Kumar Das</h1>
+                        <p>
+                            MD, WEBEL, Kolkata
+                        </p>
+                    </div>                                        
                     <p style={{fontSize : '30px'}}>Some more speakers will be added soon.</p>
                 </div>
             </div>

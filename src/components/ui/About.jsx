@@ -27,7 +27,7 @@ const About = ()=>{
             The conference encourages multidisciplinary approaches and invites submissions that explore the union and intersection of intelligent systems and security.  
             </p>
             <p>
-            Note : All the accepted papers will be published through a springer
+            Note : All the accepted papers will be published through a 
             <img src={springerLogo} alt="springer" style={{backgroundColor:'#edeef7',backgroundClip:'content-box',borderRadius:'8px'}}/> (proposal submitted).
             </p>
             {/* <p>

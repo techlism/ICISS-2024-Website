@@ -53,7 +53,21 @@ const SpeakersPage = ()=>{
                         <p>
                             MD, WEBEL, Kolkata
                         </p>
-                    </div>                                        
+                    </div>    
+                    <div className={styling['speaker']}>
+                        <img
+                            src="https://resource-cms.springernature.com/springer-cms/rest/v1/content/11382/data/v2"
+                            alt="Dr. Aninda Bose Photograph"
+                            
+                        />
+                        <h1>Dr. Aninda Bose</h1>
+                        <p>
+                            Executive Editor,
+                            Interdisciplinary Applied Sciences, Computational Intelligence, Energy <br/>
+                            Springer Nature, London
+
+                        </p>
+                    </div>                                                         
                     <p style={{fontSize : '30px'}}>Some more speakers will be added soon.</p>
                 </div>
             </div>

@@ -10,7 +10,8 @@ const ContributionTrackPage = ()=>{
                 fontWeight:'500',
                 color:'#EDEEF7',
             }}>
-                Note : All the accepted papers will be published through a <img src={springerLogo} alt="springer" style={{backgroundColor:'#edeef7',backgroundClip:'content-box',borderRadius:'8px'}}/> series.
+                Note : All the accepted papers will be published through a 
+                <img src={springerLogo} alt="springer" style={{backgroundColor:'#edeef7',backgroundClip:'content-box',borderRadius:'8px'}}/> (proposal submitted).
             </p>
             {/* <p
                 style={{

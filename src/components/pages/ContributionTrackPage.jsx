@@ -6,12 +6,13 @@ const ContributionTrackPage = ()=>{
             <ConferenceTopics/>
             <p style={{
                 'textAlign':'center',
-                'fontSize':'1.5rem',
+                'fontSize':'1rem',
                 fontWeight:'500',
                 color:'#EDEEF7',
+                textAlign : 'center',
             }}>
-                Note : All the accepted papers will be published through a <img src={springerLogo} alt="springer" style={{backgroundColor:'#edeef7',backgroundClip:'content-box',borderRadius:'8px'}}/> series (proposal submitted).
-            </p>
+                Note: All Accepted and presented papers will be published by <span style={{background : 'white',paddingTop : '6px',paddingBottom : '6px' , borderRadius:'8px',margin : '2px'}}><img src={springerLogo}/></span> in a book series of “Lecture Notes in Networks and Systems (LNNS)” (Confirmed) That Is Indexed By SCOPUS, INSPEC, WTI Frankfurt EG, ZbMATH, SCImago, Web of Science.            
+                </p>
             {/* <p
                 style={{
                     'textAlign':'center',

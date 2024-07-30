@@ -8,8 +8,8 @@ const renderTCPMembers = () => {
         .map((member) => {
             return (
                 <tr>
-                    <td>{member.name}</td>
-                    <td>{member.organization}</td>
+                    <td style={{textAlign : 'left'}}>{member.name}</td>
+                    <td style={{textAlign : 'left'}}>{member.organization}</td>
                 </tr>
             )
         })

@@ -26,12 +26,12 @@ const About = ()=>{
             ICISS welcomes contributions in the form of research papers, case studies, and industry presentations, covering a wide range of topics related to intelligent systems and security.
             The conference encourages multidisciplinary approaches and invites submissions that explore the union and intersection of intelligent systems and security.  
             </p>
-            <p>
-                Note : All the accepted papers will be published through a <img src={springerLogo} alt="springer" style={{backgroundColor:'#edeef7',backgroundClip:'content-box',borderRadius:'8px'}}/> series (proposal submitted).
+            <p style={{fontWeight : 500}}>
+                Note: All Accepted and presented papers will be published by <span style={{background : 'white',paddingTop : '6px',paddingBottom : '6px' , borderRadius:'8px',margin : '2px'}}><img src={springerLogo}/></span> in a book series of “Lecture Notes in Networks and Systems (LNNS)” (Confirmed) That Is Indexed By SCOPUS, INSPEC, WTI Frankfurt EG, ZbMATH, SCImago, Web of Science.            
             </p>
-            {/* <p>
-                Best papers (1st, 2nd and 3rd ) in each track of the conference may be considered for publication in <strong>Journal of The Institution of Engineers (India): Series B (SCImago and SCOPUS indexed)</strong>  with appropriate enhancement (up to 80%) and suitable peer review process of the Journal.
-            </p> */}
+            <p style={{marginBottom : 0 , paddingBottom : 0}}>
+                Best papers (1st, 2nd and 3rd ) in each track of the conference may be considered for publication in Journal of <strong>The Institution of Engineers (India): Series B (SCImago and SCOPUS indexed)</strong> with appropriate enhancement (up to 80%) and suitable peer review process of the Journal.
+            </p>
     </div>
  )    
 }

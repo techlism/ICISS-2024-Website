@@ -357,6 +357,10 @@ const TCPMembers = [
     name : "Ardhendu Sarkar",
     organization : "IIEST, Shibpur, India"
   },
+  {
+    name : 'Akhil Mittal',
+    organization : 'Microsoft, India'
+  }
 ];
 
 export default TCPMembers;

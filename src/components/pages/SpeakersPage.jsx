@@ -67,7 +67,18 @@ const SpeakersPage = ()=>{
                             Springer Nature, London
 
                         </p>
-                    </div>                                                         
+                    </div>    
+                    <div className={styling['speaker']}>
+                        <img
+                            src="/speaker5jpeg"
+                            alt="Prof. Sanasam Ranbir Singh Photograph"
+                            
+                        />
+                        <h1>Prof. Sanasam Ranbir Singh</h1>
+                        <p>
+                            Indian Institute of Technology, Guwahati, India
+                        </p>
+                    </div>                                                                                 
                     <p style={{fontSize : '30px'}}>Some more speakers will be added soon.</p>
                 </div>
             </div>

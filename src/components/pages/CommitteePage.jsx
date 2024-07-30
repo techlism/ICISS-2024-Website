@@ -32,7 +32,7 @@ const CommitteePage = ()=>{
                 <div className={styling.professorsGrid}>
                     <ProfessorCard name='Santi Prasad Maity' description='IIEST, Shibpur, India' page="https://www.iiests.ac.in/IIEST/Faculty/it-santipmaity"/>
                     <ProfessorCard name='Arindam Biswas' description='IIEST, Shibpur, India' page="https://www.iiests.ac.in/IIEST/Faculty/it-abiswas"/>
-                    <ProfessorCard name='Aditya Sinha' description='CDAC Kolkata, India' page='https://www.linkedin.com/in/adityaksinha/?originalSubdomain=in'/>
+                    <ProfessorCard name='Aditya Sinha' description='Former Director, CDAC Kolkata, India' page='https://www.linkedin.com/in/adityaksinha/?originalSubdomain=in'/>
                 </div>
                 <h2 className={styling.h2} >General Co-Chairs:</h2>
                 <div className={styling.professorsGrid}>

@@ -70,7 +70,7 @@ const SpeakersPage = ()=>{
                     </div>    
                     <div className={styling['speaker']}>
                         <img
-                            src="/speaker5jpeg"
+                            src="/speaker5.jpeg"
                             alt="Prof. Sanasam Ranbir Singh Photograph"
                             
                         />

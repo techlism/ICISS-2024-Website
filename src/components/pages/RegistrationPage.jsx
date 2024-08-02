@@ -5,7 +5,7 @@ const RegistrationPage = ()=>{
     useLocation();
     return(
         <>
-        <h2 className={styling.subheading}>Conference Registration Fee</h2>            
+        <h2 className={styling.subheading}>Conference Registration Fee<sup>*</sup></h2>            
         <Pricing/>
         {/* <p style={
             {
@@ -51,9 +51,20 @@ const RegistrationPage = ()=>{
                 >
                     Submit Your Paper
                 </a>
-            </button>        
+            </button>
+     
         </div>      
-
+            <p 
+            style={{
+                color:'#EDEEF7',
+                fontWeight:'500',
+                fontSize:'1.2rem',
+                textAlign:'center',
+                marginTop:'20px'
+            }}
+            >
+               <sup>*</sup>All the Registration Fees are subject to 18% GST.
+            </p>   
         </>
         )
 }

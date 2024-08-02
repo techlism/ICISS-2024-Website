@@ -43,6 +43,16 @@ const ConferenceTopics = () => {
             <table className={styling.table}>
               <tbody>
                 <tr>
+                  <td>
+                    Cybersecurity
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Security in Blockchain
+                  </td>
+                </tr>
+                <tr>
                   <td>Network and system security</td>
                 </tr>
                 <tr>

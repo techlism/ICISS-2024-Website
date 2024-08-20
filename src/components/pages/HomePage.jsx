@@ -22,7 +22,7 @@ const HomePage = ()=>{
     return(
         <div className={styling['main-home']}>
             <div className={styling['title-img']}>
-            <img src={imgsrc} className={styling['victoria']} alt='Victoria Memorial'></img>
+            <img src={imgsrc} className={styling.victoria} alt='Victoria Memorial' />
                 <h1>
                     INTERNATIONAL CONFERENCE
                     ON <br/> INTELLIGENT SYSTEMS AND SECURITY <br/> (ICISS 2024)
@@ -37,7 +37,7 @@ const HomePage = ()=>{
                 <AddressMap/>
             </div>            
             <h2 className={styling.subheading}>In Association with</h2>
-            <div className={styling['sponsordiv']}>
+            <div className={styling.sponsordiv}>
                 <div className={styling['sponsor-subdiv']}>
                     <img src={sponsorimg} alt="cdac" /> 
                     <h3 className={styling['sponsor-caption']}>CDAC, Kolkata</h3> 
@@ -51,6 +51,23 @@ const HomePage = ()=>{
                     <h3 className={styling['sponsor-caption']}>WEBEL, Govt. of West Bengal</h3>
                 </div>                                      
             </div>
+            <h2 className={styling.subheading}>
+                Sponsored by
+            </h2>
+            <div
+                style={{
+                    display:'flex',
+                    justifyContent:'center',
+                    marginBottom:'20px'
+                }}
+            >
+                <div className={styling['sponsor-subdiv']}>
+                    <img src={'/serb.png'} alt="webel logo" />
+                    <h3 className={styling['sponsor-caption']}>
+                        DST - SERB, Govt. of India
+                    </h3>
+                </div>
+            </div>                
                          
             {/* <Sponsors src1={sponsorimg} src2={sponsorimg} src3={sponsorimg}/>
             <h2 className={styling.subheading}>Our Sponsors</h2>
@@ -61,6 +78,15 @@ const HomePage = ()=>{
                 <About/>             
             </div>          
             <h2 className={styling.subheading}>Timeline of Events</h2>
+                <p
+                style={{
+                    color:'#fa0a01',
+                    textAlign:'center',
+                    fontSize:'1.2rem',
+                    fontWeight:'600',
+                    marginBottom:'10px'
+                }}
+                >(Hard Deadline)</p>
             <Timeline/>          
             <div className={styling['register-ref-div']}>
                 <div className={styling['button-wrapper']}>

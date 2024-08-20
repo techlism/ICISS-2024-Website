@@ -28,7 +28,7 @@ const RegistrationPage = ()=>{
             Kindly note that the permissible page length for manuscript submissions is limited to 12 pages. In the event of exceeding this limit, an additional charge of INR 500 per page or $10 per page will apply. The maximum page count with the surcharge is set at 15 pages.
         </p>       */}
         <div 
-            style={{display:'flex',justifyContent:'center'}}
+            style={{display:'flex',flexDirection:'column',alignItems:'center'}}
         >
             {/* Code written by Kundan */}
             <button 
@@ -52,7 +52,31 @@ const RegistrationPage = ()=>{
                     Submit Your Paper
                 </a>
             </button>
-     
+        <div
+            style={{
+                color:'#EDEEF7',
+                fontWeight:'600',
+                fontSize:'1.2rem',
+                textAlign:'center',
+                maxWidth:'60vw',
+                marginLeft:'20vw',
+                marginRight:'20vw'
+            }}
+        >
+            <p>
+                For registration NEFT or Demand Draft in favor of
+            </p>
+            <p>
+                CONTINUING EDUCATION CENTRE BESUS
+                Acc No. <span style={{
+                    fontFamily:'monospace',
+                }}>1532010011963 </span>
+                Punjab National Bank, BESUS Branch, 
+                IFSC: <span style={{
+                    fontFamily:'monospace',
+                }}>PUNB0153220</span>.
+            </p>
+        </div>                    
         </div>      
             <p 
             style={{

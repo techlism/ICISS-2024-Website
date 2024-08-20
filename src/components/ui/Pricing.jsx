@@ -11,10 +11,10 @@ const Pricing = () => {
                         <th colSpan="2">Foreign Participant</th>
                     </tr>
                     <tr>
-                        <th>On or before 30<sup>th</sup> Sept, 2024</th>
-                        <th>After 30<sup>th</sup> Sept, 2024</th>
-                        <th>On or before 30<sup>th</sup> Sept, 2024</th>
-                        <th>After 30<sup>th</sup> Sept, 2024</th>
+                        <th>On or before November 05, 2024</th>
+                        <th>After November 05, 2024</th>
+                        <th>On or before November 05, 2024</th>
+                        <th>After November 05, 2024</th>
                     </tr>
                     <tr>
                         <td>Academia (Author)</td>

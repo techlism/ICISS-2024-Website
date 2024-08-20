@@ -13,19 +13,19 @@ const Timeline = ()=>{
             <tbody>
                 <tr>
                 <td>Paper Submissions Deadline</td>
-                <td><s>15<sup>th</sup> July 2024</s>  20<sup>th</sup> August 2024</td>
+                <td>September 15, 2024</td>
                 </tr>
                 <tr>
                 <td>Notification of Final Acceptance</td>
-                <td>15<sup>th</sup> September 2024</td>
+                <td>October 15, 2024</td>
                 </tr>
                 <tr>
                 <td>Camera Ready Paper Submission</td>
-                <td>30<sup>th</sup> September 2024</td>
+                <td>October 25, 2024</td>
                 </tr>
                 <tr>
                 <td>Conference Date</td>
-                <td>20<sup>th</sup> to 22<sup>nd</sup> December 2024</td>
+                <td>December 20-22, 2024</td>
                 </tr>
             </tbody>
         </table>

@@ -33,6 +33,16 @@ const ConferenceTopics = () => {
                 <tr>
                   <td>Internet of Things (IoT) and intelligent systems integration</td>
                 </tr>
+                <tr>
+                  <td>
+                    Intelligent system for space application
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Intelligent system for remote sensing and GIS
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -49,6 +59,11 @@ const ConferenceTopics = () => {
                 </tr>
                 <tr>
                   <td>
+                    Computational number theory
+                  </td>
+                </tr>
+                <tr>
+                  <td>
                     Security in Blockchain
                   </td>
                 </tr>
@@ -57,6 +72,11 @@ const ConferenceTopics = () => {
                 </tr>
                 <tr>
                   <td>Cryptography and secure communications</td>
+                </tr>
+                <tr>
+                  <td>
+                    Quantum cryptography
+                  </td>
                 </tr>
                 <tr>
                   <td>Physical layer security</td>

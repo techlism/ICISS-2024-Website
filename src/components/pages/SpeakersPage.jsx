@@ -78,6 +78,15 @@ const SpeakersPage = ()=>{
                         <p>
                             Indian Institute of Technology, Guwahati, India
                         </p>
+                    </div>
+                    <div className={styling.speaker}>
+                        <img src={'https://www.icegov.org/wp-content/uploads/saibal-kumar-pal.png'} alt="Saibal Kumar Pal" />
+                        <h1>
+                            Dr. Saibal Kumar Pal
+                        </h1>
+                        <p>
+                            Scientist 'G' and Head Cryptology Division, DRDO, Scientific Research Group
+                        </p>
                     </div>                                                                                 
                     <p style={{fontSize : '30px'}}>Some more speakers will be added soon.</p>
                 </div>

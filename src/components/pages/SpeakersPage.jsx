@@ -8,10 +8,17 @@ const SpeakersPage = ()=>{
             <div className={styling.professors}>
                 <h1 className={styling.heading}>Our Speakers</h1>
                 <div className={styling['speakers-div']}>
+                    <div className={styling.speaker}>
+                        <img src="https://www.cs.colostate.edu/~iray/pics/cnsPLIR21.jpeg" alt="Indrakshi Ray" />
+                        <h1>Professor Indrakshi Ray</h1>
+                        <p>
+                            Colorado State University, USA
+                        </p>
+                    </div>
                     <div className={styling['speaker']}>
                         <img
                             src="/speaker01.jpg"
-                            alt="Debdeep Mukhopadhyay Image"
+                            alt="Debdeep Mukhopadhyay"
                             
                         />
                         <h1>Professor Debdeep Mukhopadhyay</h1>
@@ -23,7 +30,7 @@ const SpeakersPage = ()=>{
                     <div className={styling['speaker']}>
                         <img
                             src="/speaker02.png"
-                            alt="Sansanee Auephanwiriyakul Image"
+                            alt="Sansanee Auephanwiriyakul"
                             
                         />
                         <h1>Professor Sansanee Auephanwiriyakul</h1>
@@ -35,7 +42,7 @@ const SpeakersPage = ()=>{
                     <div className={styling['speaker']}>
                         <img
                             src="https://drdo.gov.in/drdo/sites/default/files/drdo-official-images/DG_ECS18042024.png"
-                            alt="Dr. BK DAS Photo"
+                            alt="Dr. BK DAS"
                             
                         />
                         <h1>Dr B K Das</h1>
@@ -46,7 +53,7 @@ const SpeakersPage = ()=>{
                     <div className={styling['speaker']}>
                         <img
                             src="/speaker4.jpg"
-                            alt=" Sanjay Kumar Das, MD, WEBEL, Kolkata Photograph"
+                            alt=" Sanjay Kumar Das, MD, WEBEL, Kolkata"
                             
                         />
                         <h1> Sanjay Kumar Das</h1>
@@ -57,7 +64,7 @@ const SpeakersPage = ()=>{
                     <div className={styling['speaker']}>
                         <img
                             src="https://resource-cms.springernature.com/springer-cms/rest/v1/content/11382/data/v2"
-                            alt="Dr. Aninda Bose Photograph"
+                            alt="Dr. Aninda Bose"
                             
                         />
                         <h1>Dr. Aninda Bose</h1>
@@ -71,7 +78,7 @@ const SpeakersPage = ()=>{
                     <div className={styling['speaker']}>
                         <img
                             src="/speaker5.jpeg"
-                            alt="Prof. Sanasam Ranbir Singh Photograph"
+                            alt="Prof. Sanasam Ranbir Singh"
                             
                         />
                         <h1>Prof. Sanasam Ranbir Singh</h1>

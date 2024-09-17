@@ -41,15 +41,18 @@ const RegistrationPage = ()=>{
                 marginTop: '10px',
                 marginBottom: '30px'
                 }}
+                type='submit'
             >
-                <a href="https://cmt3.research.microsoft.com/ICISS2024" target='blank' 
+                {/* href="https://cmt3.research.microsoft.com/ICISS2024" */}
+                <a  target='blank'
+                    href='#' 
                     style={{
                         textDecoration: 'none',
                         fontWeight: 500,
                         fontSize: '1.5rem'
                     }}
-                >
-                    Submit Your Paper
+                >                    
+                   Registrations Closed
                 </a>
             </button>
         <div

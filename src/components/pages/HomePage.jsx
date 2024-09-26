@@ -51,9 +51,21 @@ const HomePage = ()=>{
                     <h3 className={styling['sponsor-caption']}>WEBEL, Govt. of West Bengal</h3>
                 </div>                                      
             </div>
-            <h2 className={styling.subheading}>
-                Sponsored by
-            </h2>
+            <h2 className={styling.subheading}>Sponsored by</h2>
+            <div className={styling.sponsordiv}>
+                <div className={styling['sponsor-subdiv']}>
+                    <img src={sponsorimg} alt="cdac" /> 
+                    <h3 className={styling['sponsor-caption']}>CDAC, Kolkata</h3> 
+                </div>
+                <div className={styling['sponsor-subdiv']}>
+                    <img src={'/kolkatapolice.svg'} alt="kolkata police logo" />
+                    <h3 className={styling['sponsor-caption']}>Kolkata Police</h3>  
+                </div>
+                <div className={styling['sponsor-subdiv']}>
+                    <img src={'/webel_logo.jpg'} alt="webel logo" />
+                    <h3 className={styling['sponsor-caption']}>WEBEL, Govt. of West Bengal</h3>
+                </div>                                      
+            </div>
             <div
                 style={{
                     display:'flex',

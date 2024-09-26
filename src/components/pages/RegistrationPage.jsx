@@ -43,16 +43,16 @@ const RegistrationPage = ()=>{
                 }}
                 type='submit'
             >
-                {/* href="https://cmt3.research.microsoft.com/ICISS2024" */}
-                <a  target='blank'
-                    href='#' 
+                {/*  */}
+                <a  target='_blank'
+                    href="https://cmt3.research.microsoft.com/ICISS2024"
                     style={{
                         textDecoration: 'none',
                         fontWeight: 500,
                         fontSize: '1.5rem'
                     }}
                 >                    
-                   Registrations Closed
+                   Register
                 </a>
             </button>
         <div
@@ -63,34 +63,50 @@ const RegistrationPage = ()=>{
                 textAlign:'center',
                 maxWidth:'60vw',
                 marginLeft:'20vw',
-                marginRight:'20vw'
+                marginRight:'20vw',
+                fontFamily: 'monospace, Courier' 
             }}
         >
-            <p>
-                For registration NEFT or Demand Draft in favor of
-            </p>
-            <p>
-                CONTINUING EDUCATION CENTRE BESUS
-                Acc No. <span style={{
-                    fontFamily:'monospace',
-                }}>1532010011963 </span>
-                Punjab National Bank, BESUS Branch, 
-                IFSC: <span style={{
-                    fontFamily:'monospace',
-                }}>PUNB0153220</span>.
-            </p>
+            <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '20px' }}>
+                <tbody>
+                    <tr>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>Account Name</td>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>CONTINUING EDUCATION CENTRE BESUS</td>
+                    </tr>
+                    <tr>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>Bank Name</td>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>PUNJAB NATIONAL BANK</td>
+                    </tr>
+                    <tr>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>Branch Name</td>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>BESUS BRANCH</td>
+                    </tr>
+                    <tr>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>Account Number</td>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>1532010011963</td>
+                    </tr>
+                    <tr>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>IFSC</td>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>PUNB0153220</td>
+                    </tr>
+                    <tr>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>MICR Code</td>
+                        <td style={{ border: '1px solid #EDEEF7', padding: '10px' }}>700024396</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>                    
-        </div>      
+        </div>        
             <p 
             style={{
                 color:'#EDEEF7',
                 fontWeight:'500',
                 fontSize:'1.2rem',
                 textAlign:'center',
-                marginTop:'20px'
+                marginTop:'10px'
             }}
             >
-               <sup>*</sup>All the Registration Fees are subject to 18% GST.
+               Last date of author's registration is 8 Nov 2024. After that, an additional fee of ₹1000 for Indian participants and $50 for foreign participants must be paid.
             </p>   
         </>
         )

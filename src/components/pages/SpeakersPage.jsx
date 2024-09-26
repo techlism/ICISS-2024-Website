@@ -1,6 +1,3 @@
-// import ProfessorCard from "../../ProfessorCard";
-// import profile from '../../assets/profile.jpg'
-
 import styling from './SpeakersPage.module.css'
 const SpeakersPage = ()=>{
     return (
@@ -15,11 +12,20 @@ const SpeakersPage = ()=>{
                             Colorado State University, USA
                         </p>
                     </div>
+                    <div className={styling.speaker}>
+                        <img src="https://www.memphis.edu/cs/images/people/dasgupta-big.jpg" alt="Dipankar Dasgupta" />
+                        <h1>Prof. Dipankar Dasgupta</h1>
+                        <p>
+                            Fellow NAI, IEEE & Distinguished Speaker<br/>
+                            Director, Center for Information Assurance<br/>
+                            William Hill Professor in Computer Science<br/>
+                            The University of Memphis
+                        </p>
+                    </div>
                     <div className={styling['speaker']}>
                         <img
                             src="/speaker01.jpg"
                             alt="Debdeep Mukhopadhyay"
-                            
                         />
                         <h1>Professor Debdeep Mukhopadhyay</h1>
                         <p>
@@ -31,7 +37,6 @@ const SpeakersPage = ()=>{
                         <img
                             src="/speaker02.png"
                             alt="Sansanee Auephanwiriyakul"
-                            
                         />
                         <h1>Professor Sansanee Auephanwiriyakul</h1>
                         <p>
@@ -43,7 +48,6 @@ const SpeakersPage = ()=>{
                         <img
                             src="https://drdo.gov.in/drdo/sites/default/files/drdo-official-images/DG_ECS18042024.png"
                             alt="Dr. BK DAS"
-                            
                         />
                         <h1>Dr B K Das</h1>
                         <p>
@@ -54,7 +58,6 @@ const SpeakersPage = ()=>{
                         <img
                             src="/speaker4.jpg"
                             alt=" Sanjay Kumar Das, MD, WEBEL, Kolkata"
-                            
                         />
                         <h1> Sanjay Kumar Das</h1>
                         <p>
@@ -65,21 +68,18 @@ const SpeakersPage = ()=>{
                         <img
                             src="https://resource-cms.springernature.com/springer-cms/rest/v1/content/11382/data/v2"
                             alt="Dr. Aninda Bose"
-                            
                         />
                         <h1>Dr. Aninda Bose</h1>
                         <p>
                             Executive Editor,
                             Interdisciplinary Applied Sciences, Computational Intelligence, Energy <br/>
                             Springer Nature, London
-
                         </p>
                     </div>    
                     <div className={styling['speaker']}>
                         <img
                             src="/speaker5.jpeg"
                             alt="Prof. Sanasam Ranbir Singh"
-                            
                         />
                         <h1>Prof. Sanasam Ranbir Singh</h1>
                         <p>

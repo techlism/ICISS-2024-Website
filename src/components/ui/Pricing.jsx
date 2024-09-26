@@ -20,23 +20,23 @@ const Pricing = () => {
                         <tr>
                             <td>Academia (Author)</td>
                             <td>₹7000</td>
-                            <td>₹6500</td>
+                            <td>₹8000</td>
                             <td>$200</td>
                             <td>$250</td>
                         </tr>
                         <tr>
                             <td>Industry/ R & D organization (Author)</td>
                             <td>₹8000</td>
-                            <td>₹7500</td>
+                            <td>₹9000</td>
                             <td>$250</td>
                             <td>$300</td>
                         </tr>
                         <tr>
                             <td>Attending only/ Accompanying Person</td>
-                            <td>₹2500</td>
-                            <td>₹2500</td>
+                            <td>₹2000</td>
+                            <td>₹2000</td>
                             <td>$100</td>
-                            <td>$120</td>
+                            <td>$100</td>
                         </tr>
                     </tbody>
                 </table>

@@ -29,7 +29,7 @@ const Timeline = ()=>{
                 </tr>
                 <tr>
                 <td>Author Registration Deadline</td>
-                <td>November 8, 2024</td>
+                <td>November 10, 2024</td>
                 </tr>
                 <tr>
                 <td>Conference Date</td>

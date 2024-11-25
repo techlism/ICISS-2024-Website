@@ -18,50 +18,40 @@ const Pricing = () => {
 							<th>After November 10, 2024</th>
 						</tr>
 						<tr>
-							<td>Academia (Author)</td>
-							<td>
-								₹7000 <span style={{ fontSize: "0.8rem" }}>(+₹1260 GST)</span>
-							</td>
-							<td>
-								₹8000 <span style={{ fontSize: "0.8rem" }}>(+₹1440 GST)</span>
-							</td>
-							<td>
-								$200 <span style={{ fontSize: "0.8rem" }}>(+$36 GST)</span>
-							</td>
-							<td>
-								$250 <span style={{ fontSize: "0.8rem" }}>(+$45 GST)</span>
-							</td>
-						</tr>
-						<tr>
-							<td>Industry/ R & D organization (Author)</td>
-							<td>
-								₹8000 <span style={{ fontSize: "0.8rem" }}>(+₹1440 GST)</span>
-							</td>
-							<td>
-								₹9000 <span style={{ fontSize: "0.8rem" }}>(+₹1620 GST)</span>
-							</td>
-							<td>
-								$250 <span style={{ fontSize: "0.8rem" }}>(+$45 GST)</span>
-							</td>
-							<td>
-								$300 <span style={{ fontSize: "0.8rem" }}>(+$54 GST)</span>
-							</td>
-						</tr>
-						<tr>
-							<td>Attending only/ Accompanying Person</td>
-							<td>
-								₹2000 <span style={{ fontSize: "0.8rem" }}>(+₹360 GST)</span>
-							</td>
-							<td>
-								₹2000 <span style={{ fontSize: "0.8rem" }}>(+₹360 GST)</span>
-							</td>
-							<td>
-								$100 <span style={{ fontSize: "0.8rem" }}>(+$18 GST)</span>
-							</td>
-							<td>
-								$100 <span style={{ fontSize: "0.8rem" }}>(+$18 GST)</span>
-							</td>
-						</tr>
+                            <td>Academia (Author)</td>
+                            <td>₹7000 <span style={{fontSize: "0.8rem"}}>(+₹1260 GST)</span></td>
+                            <td>₹8000 <span style={{fontSize: "0.8rem"}}>(+₹1440 GST)</span></td>
+                            <td>$200 <span style={{fontSize: "0.8rem"}}>(+$36 GST)</span></td>
+                            <td>$250 <span style={{fontSize: "0.8rem"}}>(+$45 GST)</span></td>
+                        </tr>
+                        <tr>
+                            <td>Industry/ R & D organization (Author)</td>
+                            <td>₹8000 <span style={{fontSize: "0.8rem"}}>(+₹1440 GST)</span></td>
+                            <td>₹9000 <span style={{fontSize: "0.8rem"}}>(+₹1620 GST)</span></td>
+                            <td>$250 <span style={{fontSize: "0.8rem"}}>(+$45 GST)</span></td>
+                            <td>$300 <span style={{fontSize: "0.8rem"}}>(+$54 GST)</span></td>
+                        </tr>
+                        <tr>
+                            <td>Attending only (Academic)</td>
+                            <td>₹3000 <span style={{fontSize: "0.8rem"}}>(+₹540 GST)</span></td>
+                            <td>₹3000 <span style={{fontSize: "0.8rem"}}>(+₹540 GST)</span></td>
+                            <td>$120 <span style={{fontSize: "0.8rem"}}>(+$22 GST)</span></td>
+                            <td>$120 <span style={{fontSize: "0.8rem"}}>(+$22 GST)</span></td>
+                        </tr>
+                        <tr>
+                            <td>Industry Attendee</td>
+                            <td>₹3500 <span style={{fontSize: "0.8rem"}}>(+₹630 GST)</span></td>
+                            <td>₹3500 <span style={{fontSize: "0.8rem"}}>(+₹630 GST)</span></td>
+                            <td>$150 <span style={{fontSize: "0.8rem"}}>(+$27 GST)</span></td>
+                            <td>$150 <span style={{fontSize: "0.8rem"}}>(+$27 GST)</span></td>
+                        </tr>
+                        <tr>
+                            <td>Accompanying Person</td>
+                            <td>₹2000 <span style={{fontSize: "0.8rem"}}>(+₹360 GST)</span></td>
+                            <td>₹2000 <span style={{fontSize: "0.8rem"}}>(+₹360 GST)</span></td>
+                            <td>$100 <span style={{fontSize: "0.8rem"}}>(+$18 GST)</span></td>
+                            <td>$100 <span style={{fontSize: "0.8rem"}}>(+$18 GST)</span></td>
+                        </tr>
 					</tbody>
 				</table>
 			</div>

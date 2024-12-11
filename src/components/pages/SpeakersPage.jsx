@@ -22,7 +22,7 @@ const SpeakersPage = ()=>{
                             The University of Memphis
                         </p>
                     </div>
-                    <div className={styling['speaker']}>
+                    <div className={styling.speaker}>
                         <img
                             src="/speaker01.jpg"
                             alt="Debdeep Mukhopadhyay"
@@ -33,7 +33,7 @@ const SpeakersPage = ()=>{
                             Technology, Kharagpur, India
                         </p>
                     </div>
-                    <div className={styling['speaker']}>
+                    <div className={styling.speaker}>
                         <img
                             src="/speaker02.png"
                             alt="Sansanee Auephanwiriyakul"
@@ -44,7 +44,7 @@ const SpeakersPage = ()=>{
                             University, Chiangmai, Thailand
                         </p>
                     </div>
-                    <div className={styling['speaker']}>
+                    <div className={styling.speaker}>
                         <img
                             src="https://drdo.gov.in/drdo/sites/default/files/drdo-official-images/DG_ECS18042024.png"
                             alt="Dr. BK DAS"
@@ -54,7 +54,7 @@ const SpeakersPage = ()=>{
                             Distinguished Scientist & Director General - Electronics & Communication Systems (ECS), DRDO
                         </p>
                     </div> 
-                    <div className={styling['speaker']}>
+                    <div className={styling.speaker}>
                         <img
                             src="/speaker4.jpg"
                             alt=" Sanjay Kumar Das, MD, WEBEL, Kolkata"
@@ -64,7 +64,7 @@ const SpeakersPage = ()=>{
                             MD, WEBEL, Kolkata
                         </p>
                     </div>    
-                    <div className={styling['speaker']}>
+                    <div className={styling.speaker}>
                         <img
                             src="https://resource-cms.springernature.com/springer-cms/rest/v1/content/11382/data/v2"
                             alt="Dr. Aninda Bose"
@@ -76,7 +76,7 @@ const SpeakersPage = ()=>{
                             Springer Nature, London
                         </p>
                     </div>    
-                    <div className={styling['speaker']}>
+                    <div className={styling.speaker}>
                         <img
                             src="/speaker5.jpeg"
                             alt="Prof. Sanasam Ranbir Singh"
@@ -95,7 +95,6 @@ const SpeakersPage = ()=>{
                             Scientist 'G' and Head Cryptology Division, DRDO, Scientific Research Group
                         </p>
                     </div>                                                                                 
-                    <p style={{fontSize : '30px'}}>Some more speakers will be added soon.</p>
                 </div>
             </div>
         </div>

@@ -15,6 +15,7 @@ import ContributionTrackPage from './components/pages/ContributionTrackPage.jsx'
 import VisaPage from './components/pages/VisaPage';
 import VenuePage from './components/pages/VenuePage';
 import TouristDestinationPage from './components/pages/TouristDestinationPage.jsx';
+import SchedulePage from './components/pages/SchedulePage.jsx';
 function App() {
   return (
     <div className='app-main'>
@@ -69,7 +70,11 @@ function App() {
         <Route
           path="/tourist-destinations"
           element={<TouristDestinationPage/>}
-        />                                
+        />
+        <Route
+          path="/schedule"
+          element={<SchedulePage/>}
+        />                                        
       </Routes>
       <Footer/>
     </BrowserRouter>

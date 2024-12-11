@@ -97,6 +97,25 @@
     /* margin-bottom: 30px; */
 }
 
+.view-schedule {
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.5rem;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 @media only screen and (max-width: 450px) {
     .title-img > h1{
         font-size: 2rem;

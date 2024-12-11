@@ -14,7 +14,7 @@ const Navbar = () => {
           <img src={icisslogo} alt="iciss-logo" id='iciss-logo'/>
         </NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{filter:'invert(100%)'}}>
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -38,7 +38,8 @@ const Navbar = () => {
               <NavLink className="nav-link"  to="/speakers" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>Speakers</NavLink>
            </li>
            <li className="nav-item dropdown">
-              <NavLink className="nav-link dropdown-toggle"  to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>
+              {/* biome-ignore lint/a11y/useSemanticElements: <explanation> */}
+<NavLink className="nav-link dropdown-toggle"  to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>
                 Call for Papers
               </NavLink>
               <ul className="dropdown-menu">
@@ -47,7 +48,12 @@ const Navbar = () => {
                 {/* <li><NavLink className="dropdown-item"  to="/register">Registration Details</NavLink></li> */}
                 <li><NavLink className="dropdown-item"  to="/submit">Submit Your Paper</NavLink></li>
               </ul>
-            </li>           
+            </li>
+            <li className='nav-item'>
+              <NavLink className='nav-link' to='/schedule' style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>Schedule</NavLink>
+            </li>
+
+
             <li className="nav-item">
               <NavLink className="nav-link"  to="/register" style={{color:'#E4FBFF' , fontSize:'0.9rem'}}>Registration</NavLink>
             </li>

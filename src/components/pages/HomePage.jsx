@@ -38,6 +38,7 @@ const HomePage = () => {
 					20<sup>th</sup> to 22<sup>nd</sup> December 2024
 				</h2>
 				<TimeLeftCounter />
+                <a href="/schedule" className={styling["view-schedule"]}>View Schedule</a>
 			</div>
 			<div className={styling["conf-date"]}>
 				<AddressMap />

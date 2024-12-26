@@ -16,6 +16,7 @@ import VisaPage from './components/pages/VisaPage';
 import VenuePage from './components/pages/VenuePage';
 import TouristDestinationPage from './components/pages/TouristDestinationPage.jsx';
 import SchedulePage from './components/pages/SchedulePage.jsx';
+import BestPaperPage from './components/pages/BestPaper.js';
 function App() {
   return (
     <div className='app-main'>
@@ -74,7 +75,11 @@ function App() {
         <Route
           path="/schedule"
           element={<SchedulePage/>}
-        />                                        
+        />
+        <Route
+          path='/best-paper'                                        
+          element = {<BestPaperPage/>}
+        />
       </Routes>
       <Footer/>
     </BrowserRouter>
